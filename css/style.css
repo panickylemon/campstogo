@@ -1,0 +1,148 @@
+html {
+	height: 100%;
+	background: #fff;
+	color: #000;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body {
+	height: 100%;
+	margin: 0;
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+
+@font-face {
+	font-family: "Roboto";
+	src: url("../fonts/Roboto/robotolight.eot");
+	src: local('Roboto Light'),
+	url("../fonts/Roboto/robotolight.eot?") format("embedded-opentype"),
+	url("../fonts/Roboto/robotolight.woff") format("woff"),
+	url("../fonts/Roboto/robotolight.woff2") format("woff2"),
+	url("../fonts/Roboto/robotolight.ttf") format("truetype"),
+	url("../fonts/Roboto/robotolight.svg") format("svg");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("../fonts/Roboto/robotomedium.eot");
+	src: local('Roboto Medium'),
+	url("../fonts/Roboto/robotomedium.eot?") format("embedded-opentype"),
+	url("../fonts/Roboto/robotomedium.woff") format("woff"),
+	url("../fonts/Roboto/robotomedium.woff2") format("woff2"),
+	url("../fonts/Roboto/robotomedium.ttf") format("truetype"),
+	url("../fonts/Roboto/robotomedium.svg") format("svg");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("../fonts/Roboto/robotobold.eot");
+	src: local('Roboto Bold'),
+	url("../fonts/Roboto/robotobold.eot?") format("embedded-opentype"),
+	url("../fonts/Roboto/robotobold.woff") format("woff"),
+	url("../fonts/Roboto/robotobold.woff2") format("woff2"),
+	url("../fonts/Roboto/robotobold.ttf") format("truetype"),
+	url("../fonts/Roboto/robotobold.svg") format("svg");
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+
+/*@font-face {*/
+	/*font-family: 'Glyphicons Halflings';*/
+	/*src: url('../bootstrap/fonts/glyphicons-halflings-regular.eot');*/
+	/*src: url('../bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),*/
+	/*url('../bootstrap/fonts/glyphicons-halflings-regular.woff2') format('woff2'),*/
+	/*url('../bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff'),*/
+	/*url('../bootstrap/fonts/glyphicons-halflings-regular.ttf') format('truetype'),*/
+	/*url('../bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');*/
+/*}*/
+
+/*@font-face {*/
+	/*font-family: 'FontAwesome';*/
+	/*src: url('../bootstrap/fonts/fontawesome-webfont.eot');*/
+	/*src: url('../bootstrap/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),*/
+	/*url('../bootstrap/fonts/fontawesome-webfont.woff2') format('woff2'),*/
+	/*url('../bootstrap/fonts/fontawesome-webfont.woff') format('woff'),*/
+	/*url('../bootstrap/fonts/fontawesome-webfont.ttf') format('truetype'),*/
+	/*url('../bootstrap/fonts/fontawesome-webfont.svg') format('svg');*/
+/*}*/
+
+
+a img {
+	border: none;
+	outline: none !important;
+}
+a{
+	outline: none !important;  /* убирает обводку у кнопок и ссылок */
+}
+
+a:hover, a:active {
+	outline: 0;
+}
+
+.image_hover {
+	position: absolute;
+}
+.image_upper {
+	position: relative;
+}
+.image_upper:hover {
+	opacity: 0;
+}
+
+/* для iphone - убирает автоматическое откругление уголов */
+input[type="text"],input[type="password"], textarea{
+	border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+	-o-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	-khtml-border-radius: 0 !important;
+	-webkit-appearance: none;
+	line-height: inherit;
+}
+
+input[type="radio"] {
+	-webkit-appearance: radio;
+}
+
+.wrapper{
+	min-height: 100%;
+	position: relative;
+}
+
+.content-block{
+	width: 100%;
+	max-width: 1280px;
+	margin: auto;
+	padding-bottom: 139px;
+}
+
+footer{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.container-footer{
+	background: url("../image/footer.png") no-repeat;
+	height: 139px;
+	width: 100%;
+	max-width: 1280px;
+	margin: auto;
+}
+
+.main-banner{
+	position: relative;
+	width: 100%;
+	height: 561px;
+	background: url("../image/main-background.png") no-repeat;
+}
