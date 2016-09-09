@@ -319,7 +319,7 @@ footer {
 .btn-default:active.focus, .btn-default.active.focus, .open > .dropdown-toggle.btn-default.focus {
 	color: #404041;
 	background-color: #ffffff;
-	border: 2px solid #d1d1d1;
+	border: 1px solid #d1d1d1;
 }
 
 .filter-box-header .btn-default:hover {
@@ -348,7 +348,7 @@ footer {
 .filter-box-header .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
 	color: #404041;
 	background-color: #ffffff;
-	border: 2px solid #d1d1d1;
+	border: 1px solid #d1d1d1;
 }
 
 .btn-default:focus, .btn-default.focus{
@@ -384,6 +384,9 @@ footer {
 	margin-left: -6px;
 	background: #5cb000;
 	color: #ffffff;
+	/*border-top: 2px solid #647e50;*/
+	/*border-bottom: 2px solid #647e50;*/
+	/*border-right: 2px solid #647e50;*/
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -397,6 +400,3 @@ footer {
 	color: #ffffff;
 }
 
-.filter-box-header form{
-	border: 1px solid #647e50;;
-}
