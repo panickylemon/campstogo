@@ -10,10 +10,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">-->
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel='stylesheet' href='css/bootstrap-select.min.css'>
 	<link rel='stylesheet' href='css/style.css'>
 	<link rel='stylesheet' href='css/media.css'>
 	<script src="js/jquery-3.1.0.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/bootstrap-select.min.js"></script>
 	<script src="js/jquery.placeholder.min.js"></script>
 	<script src="js/main.js"></script>
 </head>
@@ -37,13 +39,14 @@
 					<input name="country" type="text" placeholder="Country">
 					<input name="camp-type" type="text" placeholder="Camp Type">
 					<input name="dates" type="text" placeholder="Dates">
-					<select name="age">
-						<option selected>Age</option>
-						<option>6</option>
-						<option>7</option>
-						<option>8</option>
-						<option>9</option>
+					<select name="age" class="selectpicker age-select">
+						<option>Age</option>
+						<option title="Age: 6">6</option>
+						<option title="Age: 7">7</option>
+						<option title="Age: 8">8</option>
+						<option title="Age: 9">9</option>
 					</select>
+					<button type="button" value="search" class="btn button-search">Search</button>
 				</form>
 			</div>
 
