@@ -370,14 +370,15 @@ footer {
 }
 
 .button-search{
-	z-index: 10;
-	position: relative;
+	/*z-index: 10;*/
+	/*position: relative;*/
 	width: 170px;
-	height: 47px;
-	margin-top: -3px;
+	height: 100%;
+	/*margin-top: -1px;*/
 	margin-left: -6px;
 	background: #5cb000;
 	color: #ffffff;
+	font-size: 16px;
 	/*border-top: 2px solid #647e50;*/
 	/*border-bottom: 2px solid #647e50;*/
 	/*border-right: 2px solid #647e50;*/
@@ -387,6 +388,7 @@ footer {
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
+	vertical-align: top;
 }
 
 .button-search:hover{
