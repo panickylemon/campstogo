@@ -283,7 +283,7 @@ footer {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	margin-top: -1px;
+	/*margin-top: -1px;*/
 }
 
 .filter-box-header .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
@@ -389,5 +389,5 @@ footer {
 
 .fa-caret-down{
 	color: #404041;
-	margin-top: 5px;
+	margin-top: 4px;
 }
