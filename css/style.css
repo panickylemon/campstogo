@@ -240,7 +240,7 @@ footer {
 .filter-box-header input {
 	outline: none;
 	padding: 10px;
-	height: 47px;
+	height: 100%;
 	width: 225px;
 	text-align: center;
 	font-family: Roboto, sans-serif;;
@@ -265,9 +265,13 @@ footer {
 	margin-left: -6px;
 }
 
+.filter-box-header form{
+	height: 47px;
+}
 
 .age-select {
-	margin-top: -2px;
+	height: 100%;
+	/*margin-top: -2px;*/
 	margin-left: -6px !important;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -278,12 +282,13 @@ footer {
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
-	height: 47px;
+	/*height: 47px;*/
+	height: 100%;
 	width: 117px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	/*margin-top: -1px;*/
+	margin-top: -1px;
 }
 
 .filter-box-header .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
