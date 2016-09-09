@@ -8,5 +8,8 @@ jQuery(document).ready(function ($) {
         caret: '<span class="fa fa-caret-down fa-lg"></span>'
       }
     });
-
+    $('.selectpicker').parent().children().removeAttr('title');
+    $('.selectpicker').on('hidden.bs.select', function (e) {
+        $(this).parent().children().removeAttr('title');
+    });
 });
