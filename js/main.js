@@ -5,7 +5,7 @@ jQuery(document).ready(function ($) {
 
     $('.selectpicker').selectpicker({
       template: {
-        caret: '<span class="glyphicon glyphicon-chevron-down"></span>'
+        caret: '<span class="fa fa-caret-down fa-lg"></span>'
       }
     });
 

@@ -56,20 +56,6 @@ body {
 
 
 /*@font-face {*/
-	/*font-family: "Helvetica Neue";*/
-	/*src: url("../fonts/Helvetica-Neue-Cyr/helveticaneuecyr-light.eot");*/
-	/*src: local('Helvetica Neue'),*/
-	/*url("../fonts/Helvetica-Neue-Cyr/helveticaneuecyr-light.eot?") format("embedded-opentype"),*/
-	/*url("../fonts/Helvetica-Neue-Cyr/helveticaneuecyr-light.woff") format("woff"),*/
-	/*url("../fonts/Helvetica-Neue-Cyr/helveticaneuecyr-light.woff2") format("woff2"),*/
-	/*url("../fonts/Helvetica-Neue-Cyr/helveticaneuecyr-light.ttf") format("truetype"),*/
-	/*url("../fonts/Helvetica-Neue-Cyr/helveticaneuecyr-light.svg") format("svg");*/
-	/*font-weight: normal;*/
-	/*font-style: normal;*/
-/*}*/
-
-
-/*@font-face {*/
 /*font-family: 'Glyphicons Halflings';*/
 /*src: url('../bootstrap/fonts/glyphicons-halflings-regular.eot');*/
 /*src: url('../bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),*/
@@ -79,15 +65,15 @@ body {
 /*url('../bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');*/
 /*}*/
 
-/*@font-face {*/
-/*font-family: 'FontAwesome';*/
-/*src: url('../bootstrap/fonts/fontawesome-webfont.eot');*/
-/*src: url('../bootstrap/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),*/
-/*url('../bootstrap/fonts/fontawesome-webfont.woff2') format('woff2'),*/
-/*url('../bootstrap/fonts/fontawesome-webfont.woff') format('woff'),*/
-/*url('../bootstrap/fonts/fontawesome-webfont.ttf') format('truetype'),*/
-/*url('../bootstrap/fonts/fontawesome-webfont.svg') format('svg');*/
-/*}*/
+@font-face {
+font-family: 'FontAwesome';
+src: url('../bootstrap/fonts/fontawesome-webfont.eot');
+src: url('../bootstrap/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+url('../bootstrap/fonts/fontawesome-webfont.woff2') format('woff2'),
+url('../bootstrap/fonts/fontawesome-webfont.woff') format('woff'),
+url('../bootstrap/fonts/fontawesome-webfont.ttf') format('truetype'),
+url('../bootstrap/fonts/fontawesome-webfont.svg') format('svg');
+}
 
 a img {
 	border: none;
@@ -380,7 +366,7 @@ footer {
 	z-index: 10;
 	position: relative;
 	width: 170px;
-	height: 48px;
+	height: 47px;
 	margin-top: -3px;
 	margin-left: -6px;
 	background: #5cb000;
@@ -401,3 +387,7 @@ footer {
 	color: #ffffff;
 }
 
+.fa-caret-down{
+	color: #404041;
+	margin-top: 5px;
+}
