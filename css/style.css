@@ -55,25 +55,25 @@ body {
 }
 
 
-/*@font-face {*/
-/*font-family: 'Glyphicons Halflings';*/
-/*src: url('../bootstrap/fonts/glyphicons-halflings-regular.eot');*/
-/*src: url('../bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),*/
-/*url('../bootstrap/fonts/glyphicons-halflings-regular.woff2') format('woff2'),*/
-/*url('../bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff'),*/
-/*url('../bootstrap/fonts/glyphicons-halflings-regular.ttf') format('truetype'),*/
-/*url('../bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');*/
-/*}*/
-
 @font-face {
-font-family: 'FontAwesome';
-src: url('../bootstrap/fonts/fontawesome-webfont.eot');
-src: url('../bootstrap/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
-url('../bootstrap/fonts/fontawesome-webfont.woff2') format('woff2'),
-url('../bootstrap/fonts/fontawesome-webfont.woff') format('woff'),
-url('../bootstrap/fonts/fontawesome-webfont.ttf') format('truetype'),
-url('../bootstrap/fonts/fontawesome-webfont.svg') format('svg');
+font-family: 'Glyphicons Halflings';
+src: url('../bootstrap/fonts/glyphicons-halflings-regular.eot');
+src: url('../bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+url('../bootstrap/fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+url('../bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff'),
+url('../bootstrap/fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+url('../bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
+
+/*@font-face {*/
+/*font-family: 'FontAwesome';*/
+/*src: url('../bootstrap/fonts/fontawesome-webfont.eot');*/
+/*src: url('../bootstrap/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),*/
+/*url('../bootstrap/fonts/fontawesome-webfont.woff2') format('woff2'),*/
+/*url('../bootstrap/fonts/fontawesome-webfont.woff') format('woff'),*/
+/*url('../bootstrap/fonts/fontawesome-webfont.ttf') format('truetype'),*/
+/*url('../bootstrap/fonts/fontawesome-webfont.svg') format('svg');*/
+/*}*/
 
 a img {
 	border: none;
@@ -247,6 +247,7 @@ footer {
 }
 
 .filter-box-header input {
+	float: left;
 	outline: none;
 	padding: 10px;
 	height: 100%;
@@ -276,12 +277,12 @@ footer {
 
 
 .age-select {
+	float: left !important;
 	height: 100%;
 	margin-left: -6px !important;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	float: left;
 }
 
 .filter-box-header .dropdown-toggle {
@@ -293,8 +294,6 @@ footer {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	/*margin-top: -1px;*/
-
 }
 
 .filter-box-header .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
@@ -374,8 +373,7 @@ footer {
 }
 
 .button-search{
-	/*z-index: 10;*/
-	/*position: relative;*/
+	float: left;
 	width: 170px;
 	height: 100%;
 	margin-left: -6px;
@@ -401,6 +399,3 @@ footer {
 	margin-top: 4px;
 }
 
-.float{
-	float: left !important;
-}

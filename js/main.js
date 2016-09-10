@@ -6,6 +6,7 @@ jQuery(document).ready(function ($) {
     $('.selectpicker').selectpicker({
       template: {
         caret: '<span class="fa fa-caret-down fa-lg"></span>'
+        //caret: '<span class="glyphicon glyphicon-triangle-bottom"></span>'
       }
     });
     $('.selectpicker').parent().children().removeAttr('title');
