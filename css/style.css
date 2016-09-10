@@ -120,7 +120,7 @@ input::-webkit-input-placeholder {
 input::-moz-placeholder {
 	color: #000000;
 	text-align: center;
-	font-family: sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 16px;
 }
 
@@ -128,7 +128,7 @@ input::-moz-placeholder {
 input:-moz-placeholder {
 	color: #000000;
 	text-align: center;
-	font-family: sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 16px;
 }
 
