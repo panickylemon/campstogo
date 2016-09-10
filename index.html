@@ -24,7 +24,7 @@
 <div class="wrapper">
 	<div class="content-block">
 		<div class="main-banner">
-			<header class="container-block">
+			<header class="container-block clearfix">
 				<div class="logo">
 					<img src="image/logo.png" alt="логотип Camptogo">
 				</div>
@@ -35,12 +35,19 @@
 					</ul>
 				</div>
 			</header>
+			<div class="banner-text">
+				<h1 class="banner-main-text">Holiday happiness</h1>
+
+				<p class="banner-secondary-text">Get the fantastic camp for your kid all over the world!</p>
+			</div>
 			<div class="filter-box-header">
 				<div class="container-block">
 					<form class="clearfix">
-						<input name="country" type="text" placeholder="Country">
-						<input name="camp-type" type="text" placeholder="Camp Type">
-						<input name="dates" type="text" placeholder="Dates">
+
+						<input name="country" type="text" placeholder="Country" class="form-country">
+						<input name="camp-type" type="text" placeholder="Camp Type" class="form-camp-type">
+
+						<input name="dates" type="text" placeholder="Dates" class="form-date">
 						<select name="age" class="selectpicker age-select">
 							<option>Age</option>
 							<option title="Age: 6">6</option>
@@ -48,6 +55,7 @@
 							<option title="Age: 8">8</option>
 							<option title="Age: 9">9</option>
 						</select>
+
 						<button type="button" value="search" class="btn button-search">Search</button>
 					</form>
 				</div>

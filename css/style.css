@@ -155,7 +155,8 @@ input[type="radio"] {
 
 .container-block {
 	width: 100%;
-	max-width: 960px;
+	max-width: 980px;
+	padding: 0 10px;
 	margin: auto;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -241,9 +242,29 @@ footer {
 	box-sizing: border-box;
 }
 
+
+.banner-text{
+	position: relative;
+	top: 32%;
+	transform: translateY(-50%);
+	color: white;
+	text-align: center;
+}
+
+.banner-main-text{
+	font-size: 64px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.banner-secondary-text{
+	font-size: 26px;
+	font-weight: 500;
+}
+
 .filter-box-header form{
 	width: 100%;
-	margin: 10px auto 0;
+	margin: 27px auto 0;
 }
 
 .filter-box-header input {
@@ -272,12 +293,13 @@ footer {
 }
 
 .filter-box-header input:not(:first-child) {
-	margin-left: -2px;
+	 margin-left: -2px;
 }
 
 
 .age-select {
 	float: left !important;
+	display: block;
 	height: 47px;
 	margin-left: -2px !important;
 	-webkit-box-sizing: border-box;
@@ -415,3 +437,18 @@ footer {
 	color: #ffffff;
 }
 
+/*.arrow-select{*/
+	/*display: none;*/
+/*}*/
+
+/*.bs-caret{*/
+	/*background: url("../image/arrow-select.png") no-repeat;*/
+	/*width: 11px;*/
+	/*height: 7px;*/
+	/*display: inline-block;*/
+/*}*/
+
+.btn-group>.btn, .btn-group-vertical>.btn {
+	position: static;
+	/*float: left;*/
+}
