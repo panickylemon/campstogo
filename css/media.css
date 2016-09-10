@@ -108,6 +108,25 @@
 
 }
 
+@media (max-width: 600px) {
+	.trigger-advantages .col-xxs{
+		width: 100%;
+	}
+	.item-advantages{
+		width: 100%;
+		max-width: 390px;
+		height: auto;
+	}
+	.item-advantages-description{
+		width: 89%;
+		width: calc(100% - 43px);
+	}
+	.trigger-advantages{
+		padding: 50px 0 40px;
+	}
+
+}
+
 @media (max-width: 510px) {
 	.filter-box-header {
 		height: 290px;
@@ -249,5 +268,8 @@
 		font-size: 36px;
 		line-height: 60px;
 		max-width: 145px;
+	}
+	.item-advantages-title{
+		font-size: 24px;
 	}
 }
