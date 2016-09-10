@@ -66,6 +66,10 @@
 }
 
 @media (max-width: 830px) {
+	.trigger-item {
+		padding: 20px 0 50px;
+	}
+
 	.new-camps-item-title{
 		font-size: 26px;
 	}
@@ -77,10 +81,16 @@
 		font-size: 18px;
 	}
 	.latest-news-item .latest-news-title{
-		font-size: 22px;
+		font-size: 24px;
+		line-height: 28px;
 	}
-	.latest-news-hashtag{
-		font-size: 14px;
+
+    .latest-news-item-box{
+	    width: 50%;
+    }
+	.latest-news-item-wrapper{
+		max-width: 300px;
+		margin: 15px auto 0;
 	}
 }
 
@@ -165,9 +175,6 @@
 	.new-camps-item-title{
 		font-size: 36px;
 	}
-	.trigger-item {
-		padding: 20px 0 40px;
-	}
     .numeric-item-wrapper{
 	    width: 100%;
     }
@@ -224,6 +231,11 @@
 	}
 }
 
+@media (max-width: 420px) {
+	.latest-news-item-box{
+		width: 100%;
+	}
+}
 
 @media (max-width: 310px) {
 	.main-banner {
