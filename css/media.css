@@ -76,6 +76,12 @@
 	.numeric-item-text{
 		font-size: 18px;
 	}
+	.latest-news-item .latest-news-title{
+		font-size: 22px;
+	}
+	.latest-news-hashtag{
+		font-size: 14px;
+	}
 }
 
 @media (max-width: 698px) {

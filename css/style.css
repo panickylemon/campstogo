@@ -616,17 +616,58 @@ footer {
 
 /*latest new*/
 
-.latest-new-item-wrapper{
+.latest-news-item-wrapper{
 	position: relative;
 	width: 100%;
 	max-width: 230px;
+	margin: 30px auto 0;
 	background: #231F20;
 }
 
-.latest-new-item .shadow-box-title{
+.latest-news-item-wrapper{
+	 width: 100%;
+ }
+
+.latest-news-item-wrapper img{
+	width: 100%;
+}
+
+.latest-news-item .shadow-box-title{
 	width: 100%;
 	position: absolute;
 	bottom: 0;
 	height: 150px;
 	background: rgba(35, 31, 32, 0.4);
+}
+
+.latest-news-item .latest-news-title{
+	color: white;
+	font-weight: 500;
+	font-size: 28px;
+	padding: 10px 10px 0;
+	line-height: 34px;
+}
+
+.latest-news-hashtag{
+	position: absolute;
+	bottom: 10px;
+	right: 15px;
+	margin: 0;
+	font-weight: 500;
+	color: #ffffff;
+	font-size: 16px;
+}
+
+.latest-news-item-wrapper:hover img{
+	opacity: 0.3;
+}
+
+.latest-news-item-wrapper:hover .shadow-box-title{
+	background: rgba(35, 31, 32, 0);
+}
+
+.zzz{
+	width: 25%;
+	float: left;
+	padding: 0 5px;
 }
