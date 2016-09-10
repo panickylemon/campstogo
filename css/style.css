@@ -671,3 +671,36 @@ footer {
 	float: left;
 	padding: 0 5px;
 }
+
+/*trigger advantages*/
+
+.trigger-advantages{
+	width: 100%;
+	padding: 90px 0 80px;
+	background: #f1f1ed;
+}
+
+.item-advantages{
+	width: 275px;
+	height: 170px;
+	margin: auto;
+	/*border: 1px solid red;*/
+}
+
+.item-advantages-title{
+	font-weight: 500;
+	font-size: 28px;
+}
+
+.item-advantages-description{
+	margin-left: 46px;
+	font-weight: 300;
+	font-size: 16px;
+	width: 220px;
+}
+
+
+.item-advantages-title div{
+	display: inline-block;
+	width: 38px;
+}
