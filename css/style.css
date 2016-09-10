@@ -118,25 +118,28 @@ input::-webkit-input-placeholder {
 }
 
 input::-moz-placeholder {
-	color: #000000;
+	color: #404041;
 	text-align: center;
-	font-family: sans-serif;
+	opacity: 1 !important;
+	/*font-family: sans-serif;*/
 	font-size: 16px;
 }
 
 /* Firefox 19+ */
 input:-moz-placeholder {
-	color: #000000;
+	color: #404041;
 	text-align: center;
-	font-family: sans-serif;
+	opacity: 1 !important;
+	/*font-family: sans-serif;*/
 	font-size: 16px;
 }
 
 /* Firefox 18- */
 input:-ms-input-placeholder {
-	color: #000000;
+	color: #404041;
 	text-align: center;
-	font-family: sans-serif;
+	opacity: 1 !important;
+	/*font-family: sans-serif;*/
 	font-size: 16px;
 }
 
