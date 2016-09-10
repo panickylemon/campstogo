@@ -8,9 +8,16 @@ jQuery(document).ready(function ($) {
         $(this).parent().children().removeAttr('title');
     });
 
+    function checkWidth() {
+        var windowsize = $("body").innerWidth();
+        if (windowsize >= 436) {
+            $(".menu-header>ul").css("display", "block")
+        } else {
+            $(".menu-header>ul").css("display", "none")
+        }
+    }
 
-
-
+    $(window).resize(checkWidth);
 
     $(".fa-bars").click(function() {
         $(".menu-header>ul").slideToggle("slow");
