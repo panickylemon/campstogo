@@ -57,6 +57,25 @@
 	.banner-text {
 		top: 27%;
 	}
+	.trigger-item{
+		padding: 35px 0 40px;
+	}
+	.new-camps-wrapper {
+		margin-top: 25px;
+	}
+}
+
+@media (max-width: 830px) {
+	.new-camps-item-title{
+		font-size: 26px;
+	}
+	.numeric-item{
+		width: 145px;
+		font-size: 48px;
+	}
+	.numeric-item-text{
+		font-size: 18px;
+	}
 }
 
 @media (max-width: 698px) {
@@ -67,6 +86,10 @@
 	.banner-secondary-text {
 		font-size: 20px;
 	}
+	h2 {
+		font-size: 36px;
+	}
+
 }
 
 @media (max-width: 510px) {
@@ -118,6 +141,35 @@
 		font-size: 36px;
 	}
 
+	.new-camps-item-wrapper{
+		width: 100%;
+		float: none;
+		margin-bottom: 15px;
+	}
+
+	.new-camps-item{
+		margin: auto;
+		max-width: none;
+	}
+
+    .new-camps-text{
+	    font-size: 18px;
+    }
+
+	.new-camps-item-title{
+		font-size: 36px;
+	}
+	.trigger-item {
+		padding: 20px 0 40px;
+	}
+    .numeric-item-wrapper{
+	    width: 100%;
+    }
+	.numeric-item {
+		width: 100%;
+		max-width: 175px;
+	}
+
 }
 
 @media (max-width: 450px) {
@@ -156,9 +208,28 @@
 		padding: 70px 0 10px;
 	}
 
-	.menu-header li a{
+	.menu-header li a {
 		display: inline-block;
 		width: 100%;
 	}
+
+	.button-watch {
+		margin: 25px auto 0;
+	}
 }
 
+
+@media (max-width: 310px) {
+	.main-banner {
+		background-position: 70%;
+	}
+	.new-camps-item-title{
+		font-size: 26px;
+	}
+
+	.numeric-item {
+		font-size: 36px;
+		line-height: 60px;
+		max-width: 145px;
+	}
+}

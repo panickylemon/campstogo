@@ -148,6 +148,16 @@ input[type="radio"] {
 	-webkit-appearance: radio;
 }
 
+h2{
+	font-size: 48px;
+	font-weight: 300;
+}
+
+.index-page h2{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
 .wrapper {
 	min-height: 100%;
 	position: relative;
@@ -171,7 +181,9 @@ input[type="radio"] {
 	padding-bottom: 140px;
 }
 
-
+.wrapper-banner{
+	position: relative;
+}
 
 footer {
 	position: absolute;
@@ -255,7 +267,7 @@ footer {
 
 .filter-box-header {
 	position: absolute;
-	bottom: 173px;
+	bottom: 0;
 	width: 100%;
 	height: 100px;
 	background: rgba(0, 31, 32, 0.7);
@@ -467,4 +479,137 @@ footer {
 
 .btn-group>.btn, .btn-group-vertical>.btn {
 	position: static;
+}
+
+
+/*second trigger*/
+
+.trigger-item{
+	padding: 55px 0 45px;
+}
+
+.new-camps-wrapper{
+	margin-top: 33px;
+}
+
+.new-camps-item-wrapper{
+	float: left;
+	width: 33.33%;
+	width: calc(100% / 3);
+	padding: 0 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.new-camps-text{
+	font-size: 20px;
+	text-align: center;
+}
+
+.new-camps-item{
+	position: relative;
+	width: 100%;
+	max-width: 310px;
+	background: #231F20;
+}
+
+.new-camps-item img{
+	width: 100%;
+	opacity: 0.7;
+}
+
+.new-camps-item:hover img{
+	opacity: 0.3;
+}
+
+.new-camps-item-title{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	padding: 0 5px;
+	text-align: center;
+	font-weight: 500;
+	font-size: 36px;
+	color: #ffffff;
+}
+
+.button-watch{
+	max-width: 308px;
+	width: 100%;
+	border: 1px solid #a3a3a3;
+	text-align: center;
+	margin: 45px auto 0;
+	background: #ffffff;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.button-watch:hover{
+	 background: #a3a3a3;
+ }
+
+.button-watch:hover a{
+	color: #ffffff;
+}
+
+.button-watch a{
+	text-decoration: none;
+	color: #404041;
+	font-size: 20px;
+}
+
+.button-watch div{
+	padding: 10px 0;
+}
+
+/*numeric-box*/
+
+.numeric-box{
+	background: #7f3f97;
+	width: 100%;
+	min-height: 160px;
+}
+
+.numeric-item-wrapper{
+	float: left;
+	width: 33.33%;
+	width: calc(100% / 3);
+	padding: 23px 5px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.numeric-item{
+	margin: auto;
+	width: 185px;
+	line-height: 80px;
+	font-weight: 500;
+	font-size: 64px;
+	color: #ffffff;
+	text-align: center;
+	border: 1px solid #ffffff;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.numeric-item-text{
+	margin-top: 10px;
+	padding: 0 0 10px;
+	text-align: center;
+	font-weight: 500;
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 20px;
 }
