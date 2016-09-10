@@ -24,14 +24,7 @@
 
 	.filter-box-header .dropdown-toggle{
 		width: 100%;
-		/*height: 100%;*/
-		/*border-bottom: none;*/
 	}
-
-	.age-select{
-		/*height: 100%;*/
-	}
-
 
 	.filter-box-header .form-date{
 		margin: 0 !important;
@@ -42,6 +35,55 @@
 	}
 
 	.button-search{
-		margin-top: 10px;
+		float: none;
+		margin: 10px auto 0;
+		width: 100%;
+		max-width: 300px;
+	}
+
+	.filter-box-header form {
+		margin: 20px auto 0;
+	}
+
+    .filter-box-header{
+	    height: 195px;
+    }
+	.main-banner {
+		background-position: 70%;
+	}
+	.banner-text {
+		top: 27%;
+	}
+}
+
+
+@media (max-width: 698px) {
+	.banner-main-text{
+		font-size: 49px;
+	}
+
+	.banner-secondary-text{
+		font-size: 20px;
+	}
+}
+
+
+@media (max-width: 510px) {
+	.filter-box-header {
+		height: 305px;
+	}
+
+	.filter-box-header input{
+		width: 100%;
+		margin: 0 0 8px !important;
+	}
+	.filter-box-header .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+		width: 100%;
+	}
+	.age-select{
+		margin: 8px 0 0 !important;
+	}
+	.banner-secondary-text{
+		display: none;
 	}
 }

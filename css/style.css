@@ -265,6 +265,7 @@ footer {
 .filter-box-header form{
 	width: 100%;
 	margin: 27px auto 0;
+	text-align: center;
 }
 
 .filter-box-header input {
@@ -423,11 +424,14 @@ footer {
 	background: #64bf00;
 }
 
-.fa-caret-down{
-	color: #404041;
-	margin-top: 4px;
-}
+/*.fa-caret-down{*/
+	/*color: #404041;*/
+	/*margin-top: 4px;*/
+/*}*/
 
+.glyphicon {
+	top: 4px;
+}
 
 .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
 	outline: none;
@@ -437,18 +441,7 @@ footer {
 	color: #ffffff;
 }
 
-/*.arrow-select{*/
-	/*display: none;*/
-/*}*/
-
-/*.bs-caret{*/
-	/*background: url("../image/arrow-select.png") no-repeat;*/
-	/*width: 11px;*/
-	/*height: 7px;*/
-	/*display: inline-block;*/
-/*}*/
 
 .btn-group>.btn, .btn-group-vertical>.btn {
 	position: static;
-	/*float: left;*/
 }
