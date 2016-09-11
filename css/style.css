@@ -927,6 +927,10 @@ footer .logo {
 	vertical-align: top;
 }
 
-.theme-camp-text{
+.item-result-camp-text{
 	margin: -5px 0 10px;
+}
+
+.item-result-camp-date{
+	font-weight: 500;
 }
