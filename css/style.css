@@ -2,6 +2,7 @@ html {
 	height: 100%;
 	background: #fff;
 	color: #000;
+	overflow-x:  hidden;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 }
@@ -163,6 +164,7 @@ h2 {
 }
 
 .container-block {
+	position: relative;
 	width: 100%;
 	max-width: 980px;
 	padding: 0 10px;
@@ -177,7 +179,7 @@ h2 {
 	width: 100%;
 	max-width: 1920px;
 	margin: auto;
-	padding-bottom: 140px;
+	padding-bottom: 138px;
 }
 
 .wrapper-banner {
@@ -193,10 +195,72 @@ footer {
 
 .container-footer {
 	background: url("../image/footer-background.png") no-repeat center;
-	height: 140px;
+	height: 138px;
 	width: 100%;
-	max-width: 1920px;
+	max-width: 1940px;
 	margin: auto;
+}
+
+.menu-footer{
+	float: left;
+	margin-top: 42px;
+}
+
+.menu-footer ul{
+	padding: 0;
+}
+
+footer .logo{
+	margin-right: 6%;
+}
+
+.for-camps-box{
+	position: absolute;
+	top: 42px;
+	right: 10px;
+	color: #ffffff;
+}
+
+.for-camps-title{
+	display: inline-block;
+}
+
+.for-camps-box a p{
+	display: inline-block;
+	font-weight: 500;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.for-camps-box a{
+	margin-left: 25px;
+	text-decoration: none;
+}
+
+.add-camp-link:before{
+	display: inline-block;
+	content: ' ';
+	background: url("../image/add-icon.png") no-repeat;
+	width: 23px;
+	height: 14px;
+}
+
+.edit-camp-link:before{
+	display: inline-block;
+	content: ' ';
+	background: url("../image/edit-icon.png") no-repeat;
+	width: 23px;
+	height: 15px;
+}
+
+.copyright{
+	/*position: absolute;*/
+	/*bottom: 25px;*/
+	width: 100%;
+	padding: 20px 0 0 18px;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 500;
 }
 
 .main-banner {
