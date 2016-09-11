@@ -125,6 +125,10 @@
 		padding: 50px 0 40px;
 	}
 
+	.camps-assignment-item {
+		margin: 0 auto 20px;
+	}
+
 }
 
 @media (max-width: 510px) {
@@ -254,6 +258,10 @@
 	.latest-news-item-box{
 		width: 100%;
 	}
+	.camps-assignment-wrapper .col-xxs{
+		width: 100%;
+	}
+
 }
 
 @media (max-width: 310px) {
