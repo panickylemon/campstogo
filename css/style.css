@@ -100,16 +100,6 @@ a:hover, a:active {
 	opacity: 0;
 }
 
-/* для iphone - убирает автоматическое откругление уголов */
-/*input[type="text"],input[type="password"], textarea{*/
-/*border-radius: 0 !important;*/
-/*-webkit-border-radius: 0 !important;*/
-/*-o-border-radius: 0 !important;*/
-/*-moz-border-radius: 0 !important;*/
-/*-khtml-border-radius: 0 !important;*/
-/*-webkit-appearance: none;*/
-/*line-height: inherit;*/
-/*}*/
 
 input::-webkit-input-placeholder {
 	color: #404041;
@@ -932,5 +922,86 @@ footer .logo {
 }
 
 .item-result-camp-date{
+	display: inline-block;
+	margin-right: 15px;
 	font-weight: 500;
+}
+
+.item-result-camp-link{
+	display: inline-block;
+}
+
+.item-result-camp-link a{
+	font-weight: 500;
+	color: #5cb000;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(92, 176, 0, 0.4);
+}
+
+.item-result-camp-link a:hover{
+	color: #57a600;
+}
+
+
+.read-more-wrapper{
+	float: right;
+	margin-top: -8px;
+}
+
+.item-result-camp-price{
+	display: inline-block;
+	height: 30px;
+}
+
+.item-result-camp-price p{
+	display: inline-block;
+}
+
+.result-camp-old-price{
+	padding-right: 15px;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.result-camp-price{
+	padding-right: 15px;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.strikethrough-block{
+	display: block;
+	border-bottom: 1px solid rgba(64, 64, 65, 0.8);
+	line-height: 1px;
+}
+
+.button-read-more{
+	display: inline-block;
+	width: 142px;
+	height: 30px;
+	vertical-align: top;
+	background: #5cb000;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.button-read-more a{
+	color: white;
+	line-height: 30px;
+	font-weight: 500;
+	text-decoration: none;
+	text-align: center;
+}
+
+.button-read-more:hover{
+	background: #57a600;
+}
+
+.button-read-more:active {
+	background: #64bf00;
+}
+
+.date-link-wrapper{
+	float: left;
 }
