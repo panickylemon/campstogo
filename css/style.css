@@ -787,6 +787,10 @@ footer .logo {
 
 /*search result page*/
 
+.wrapper-result-search{
+	margin: 40px auto 20px;
+}
+
 .wrapper-header {
 	position: relative;
 	background: url("../image/header-background.png") no-repeat center;
@@ -797,9 +801,10 @@ footer .logo {
 	background: none;
 }
 
-
 .item-result-search{
-	margin: 35px auto 20px;
+	margin: 30px auto 0;
+	padding-bottom: 35px;
+	border-bottom: 1px solid rgba(163, 163, 163, 0.5);
 }
 
 .item-result-search-title{
@@ -821,6 +826,7 @@ footer .logo {
 
 .item-result-search-place{
 	font-size: 20px;
+	margin-top: 5px;
 }
 
 .item-result-search-rating{
@@ -877,7 +883,6 @@ footer .logo {
 
 .wrapper-item-result-description{
 	float: left;
-	border: 1px solid red;
 	width: 100%;
 }
 
@@ -908,6 +913,11 @@ footer .logo {
 
 .camp-archery{
 	background: url("../image/archery.png") no-repeat;
+}
+
+.camp-fencing{
+	background: url("../image/fencing.png") no-repeat;
+	width: 45px;
 }
 
 .theme-camp-title{
@@ -958,7 +968,7 @@ footer .logo {
 }
 
 .result-camp-old-price{
-	padding-right: 15px;
+	padding-right: 10px;
 	font-size: 20px;
 	font-weight: 300;
 }
@@ -1004,4 +1014,52 @@ footer .logo {
 
 .date-link-wrapper{
 	float: left;
+}
+
+.pagination>li>a, .pagination>li>span {
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	padding: 6px 0;
+	color: #404041;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 18px;
+	font-weight: 500;
+	background-color: #fff;
+	border: 1px solid #a3a3a3;
+	margin: 0 5px;
+}
+
+.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {
+	color: #fff;
+	background-color: #5cb000;
+	border-color: #5cb000;
+}
+
+.wrapper-pagination{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+
+.pagination>li:first-child>a, .pagination>li:first-child>span,
+.pagination>li:last-child>a, .pagination>li:last-child>span {
+	border: none;
+	font-weight: 500;
+	font-size: 28px;
+	padding: 0;
+	line-height: 35px;
+	color: #a3a3a3;
+}
+
+
+.pagination>li:first-child>a:hover, .pagination>li:first-child>span:hover,
+.pagination>li:first-child>a:focus, .pagination>li:first-child>span:focus,
+.pagination>li:last-child>a:hover, .pagination>li:last-child>span:hover,
+.pagination>li:last-child>a:focus, .pagination>li:last-child>span:focus{
+	background: none;
+	border: none;
+	color: #404041;
 }

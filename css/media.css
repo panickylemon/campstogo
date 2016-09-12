@@ -50,13 +50,14 @@
 	.banner-text {
 		top: 27%;
 	}
-	.trigger-item{
+
+	.trigger-item {
 		padding: 35px 0 40px;
 	}
+
 	.new-camps-wrapper {
 		margin-top: 25px;
 	}
-
 
 	.wrapper-header {
 		height: 270px;
@@ -64,8 +65,24 @@
 	}
 }
 
+@media (max-width: 970px) {
+	.date-link-wrapper {
+		width: 100%;
+	}
+
+	.read-more-wrapper {
+		width: 100%;
+		float: left;
+		margin-top: 5px;
+	}
+
+	.button-read-more {
+		float: right;
+	}
+}
+
 @media (max-width: 900px) {
-	.for-camps-title{
+	.for-camps-title {
 		display: none;
 	}
 }
@@ -75,27 +92,47 @@
 		padding: 20px 0 50px;
 	}
 
-	.new-camps-item-title{
+	.new-camps-item-title {
 		font-size: 26px;
 	}
-	.numeric-item{
+
+	.numeric-item {
 		width: 145px;
 		font-size: 48px;
 	}
-	.numeric-item-text{
+
+	.numeric-item-text {
 		font-size: 18px;
 	}
-	.latest-news-item .latest-news-title{
+
+	.latest-news-item .latest-news-title {
 		font-size: 24px;
 		line-height: 28px;
 	}
 
-    .latest-news-item-box{
-	    width: 50%;
-    }
-	.latest-news-item-wrapper{
+	.latest-news-item-box {
+		width: 50%;
+	}
+
+	.latest-news-item-wrapper {
 		max-width: 300px;
 		margin: 15px auto 0;
+	}
+}
+
+@media (max-width: 780px) {
+	.theme-camp-title {
+		display: none;
+	}
+	.theme-camp-wrapper p {
+		padding-right: 10px;
+	}
+	.item-result-search-title {
+		max-width: 100%;
+	}
+	.item-result-search-rating {
+		float: left;
+		margin-bottom: 10px;
 	}
 }
 
@@ -105,6 +142,7 @@
 		right: 21px;
 		font-size: 14px;
 	}
+
 	.menu-footer {
 		float: right;
 	}
@@ -118,33 +156,63 @@
 	.banner-secondary-text {
 		font-size: 20px;
 	}
+
 	h2 {
 		font-size: 36px;
+	}
+
+	.pagination>li>a, .pagination>li>span {
+		width: 30px;
+		height: 30px;
+		padding: 4px 0;
+		font-size: 16px;
+		margin: 0 5px;
+	}
+
+	.pagination>li:first-child>a, .pagination>li:first-child>span,
+	.pagination>li:last-child>a, .pagination>li:last-child>span {
+		line-height: 27px;
 	}
 
 }
 
 @media (max-width: 600px) {
-	.trigger-advantages .col-xxs{
+	.trigger-advantages .col-xxs {
 		width: 100%;
 	}
-	.item-advantages{
+
+	.item-advantages {
 		width: 100%;
 		max-width: 390px;
 		height: auto;
 	}
-	.item-advantages-description{
+
+	.item-advantages-description {
 		width: 89%;
 		width: calc(100% - 43px);
 	}
-	.trigger-advantages{
+
+	.trigger-advantages {
 		padding: 50px 0 40px;
 	}
 
 	.camps-assignment-item {
 		margin: 0 auto 20px;
 	}
+}
 
+@media (max-width: 570px) {
+	.item-result-image{
+		width: 100%;
+	}
+
+	.item-result-image img{
+		width: 100%;
+	}
+
+	.content-item-result-description {
+		margin: 20px 0 10px;
+	}
 }
 
 @media (max-width: 510px) {
@@ -196,40 +264,49 @@
 		font-size: 36px;
 	}
 
-	.new-camps-item-wrapper{
+	.new-camps-item-wrapper {
 		width: 100%;
 		float: none;
 		margin-bottom: 15px;
 	}
 
-	.new-camps-item{
+	.new-camps-item {
 		margin: auto;
 		max-width: none;
 	}
 
-    .new-camps-text{
-	    font-size: 18px;
-    }
+	.new-camps-text {
+		font-size: 18px;
+	}
 
-	.new-camps-item-title{
+	.new-camps-item-title {
 		font-size: 36px;
 	}
-    .numeric-item-wrapper{
-	    width: 100%;
-    }
+
+	.numeric-item-wrapper {
+		width: 100%;
+	}
+
 	.numeric-item {
 		width: 100%;
 		max-width: 175px;
 	}
+
 	.wrapper-header {
 		height: 365px;
 	}
 
+	.item-result-search-title h2 {
+		font-size: 20px;
+	}
+	.item-result-search-place {
+		font-size: 18px;
+	}
+
 }
 
-
-@media (max-width: 490px){
-	.container-footer{
+@media (max-width: 490px) {
+	.container-footer {
 		height: 170px;
 		background-size: auto 100%;
 	}
@@ -238,11 +315,11 @@
 		padding-bottom: 170px;
 	}
 
-	footer .logo{
+	footer .logo {
 		margin-top: 15px;
 	}
 
-	.menu-footer{
+	.menu-footer {
 		width: 100%;
 		margin-top: 15px;
 	}
@@ -256,49 +333,53 @@
 		top: 105px;
 	}
 
-    .copyright{
-	    position: relative;
-	    bottom: -20px;
-	    padding: 20px 0 0 14px;
-	    font-size: 12px;
-	    font-weight: 300;
-    }
+	.copyright {
+		position: relative;
+		bottom: -20px;
+		padding: 20px 0 0 14px;
+		font-size: 12px;
+		font-weight: 300;
+	}
 }
 
-
-	@media (max-width: 450px) {
+@media (max-width: 450px) {
 	.logo {
 		max-width: 150px;
 		margin-top: 20px;
 	}
+
 	.mobile-menu-burger {
 		display: block;
 	}
+
 	.menu li a:hover {
 		border: 2px solid rgba(255, 255, 255, 0.0);
 	}
-    .menu-header ul{
-	    display: none;
-	    position: absolute;
-	    z-index: 100;
-	    top: 0;
-	    right: 0;
-	    width: 100%;
-	    margin: 0;
-	    padding: 0;
-	    background: rgba(25, 25, 25, 0.7);
-	    text-align: center;
-    }
+
+	.menu-header ul {
+		display: none;
+		position: absolute;
+		z-index: 100;
+		top: 0;
+		right: 0;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		background: rgba(25, 25, 25, 0.7);
+		text-align: center;
+	}
+
 	.menu-header {
 		float: none;
 	}
+
 	.menu-header li {
 		width: 100%;
 		margin: auto;
 		padding: 10px 0 20px;
 	}
 
-	.menu-header li:first-child{
+	.menu-header li:first-child {
 		padding: 70px 0 10px;
 	}
 
@@ -310,29 +391,48 @@
 	.button-watch {
 		margin: 25px auto 0;
 	}
+
 	.wrapper-header {
 		height: 350px;
 	}
+
 	.for-camps-box {
 		top: 100px;
 	}
 }
 
 @media (max-width: 420px) {
-	.latest-news-item-box{
-		width: 100%;
-	}
-	.camps-assignment-wrapper .col-xxs{
+	.latest-news-item-box {
 		width: 100%;
 	}
 
+	.camps-assignment-wrapper .col-xxs {
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 340px) {
+	.button-read-more {
+		width: 100%;
+		float: none;
+		height: 35px;
+		margin-top: 15px;
+	}
+	.button-read-more a {
+		line-height: 35px;
+	}
+	.read-more-wrapper {
+		margin-top: 0;
+	}
 }
 
 @media (max-width: 310px) {
 	.main-banner {
 		background-position: 70%;
 	}
-	.new-camps-item-title{
+
+	.new-camps-item-title {
 		font-size: 26px;
 	}
 
@@ -341,37 +441,42 @@
 		line-height: 60px;
 		max-width: 145px;
 	}
-	.item-advantages-title{
+
+	.item-advantages-title {
 		font-size: 24px;
 	}
 
-    .add-camp-link{
-	    width: 100%;
-    }
+	.add-camp-link {
+		width: 100%;
+	}
 
-	.container-footer{
+	.container-footer {
 		height: 190px;
 	}
+
 	.content-block {
 		padding-bottom: 190px;
 	}
-	.copyright{
+
+	.copyright {
 		bottom: -45px;
 		padding: 20px 0 0 10px;
 	}
 }
 
-
 @media (max-width: 250px) {
-	.container-footer{
+	.container-footer {
 		height: 205px;
 	}
+
 	.content-block {
 		padding-bottom: 205px;
 	}
+
 	.copyright {
 		bottom: -35px;
 	}
+
 	.for-camps-box {
 		top: 115px;
 	}
