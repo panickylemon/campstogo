@@ -228,7 +228,46 @@
 
 }
 
-@media (max-width: 450px) {
+
+@media (max-width: 490px){
+	.container-footer{
+		height: 170px;
+		background-size: auto 100%;
+	}
+
+	.content-block {
+		padding-bottom: 170px;
+	}
+
+	footer .logo{
+		margin-top: 15px;
+	}
+
+	.menu-footer{
+		width: 100%;
+		margin-top: 15px;
+	}
+
+	.for-camps-box a {
+		margin-left: 20px;
+	}
+
+	.for-camps-box {
+		left: 0;
+		top: 105px;
+	}
+
+    .copyright{
+	    position: relative;
+	    bottom: -20px;
+	    padding: 20px 0 0 14px;
+	    font-size: 12px;
+	    font-weight: 300;
+    }
+}
+
+
+	@media (max-width: 450px) {
 	.logo {
 		max-width: 150px;
 		margin-top: 20px;
@@ -275,6 +314,9 @@
 	.wrapper-header {
 		height: 350px;
 	}
+	.for-camps-box {
+		top: 100px;
+	}
 }
 
 @media (max-width: 420px) {
@@ -302,5 +344,36 @@
 	}
 	.item-advantages-title{
 		font-size: 24px;
+	}
+
+    .add-camp-link{
+	    width: 100%;
+    }
+
+	.container-footer{
+		height: 190px;
+	}
+	.content-block {
+		padding-bottom: 190px;
+	}
+	.copyright{
+		bottom: -45px;
+		padding: 20px 0 0 10px;
+	}
+}
+
+
+@media (max-width: 250px) {
+	.container-footer{
+		height: 205px;
+	}
+	.content-block {
+		padding-bottom: 205px;
+	}
+	.copyright {
+		bottom: -35px;
+	}
+	.for-camps-box {
+		top: 115px;
 	}
 }
