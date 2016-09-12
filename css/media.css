@@ -59,8 +59,8 @@
 
 
 	.wrapper-header {
-		background: url("../image/header2.png") no-repeat center;
 		height: 270px;
+		background-size: auto 100%;
 	}
 }
 
@@ -222,7 +222,6 @@
 		max-width: 175px;
 	}
 	.wrapper-header {
-		background: url("../image/header3.png") no-repeat center;
 		height: 365px;
 	}
 
