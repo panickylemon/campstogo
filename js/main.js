@@ -1,6 +1,7 @@
 jQuery(document).ready(function ($) {
 
     $('input, textarea').placeholder();
+    $(".pagination").rPage();
 
     $('.selectpicker').selectpicker();
     $('.selectpicker').parent().children().removeAttr('title');
@@ -23,5 +24,6 @@ jQuery(document).ready(function ($) {
         $(".menu-header>ul").slideToggle("slow");
     });
 });
+
 
 
