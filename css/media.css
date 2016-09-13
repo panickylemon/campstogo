@@ -204,6 +204,7 @@
 @media (max-width: 570px) {
 	.item-result-image{
 		width: 100%;
+		float: none;
 	}
 
 	.item-result-image img{
@@ -329,7 +330,7 @@
 	}
 
 	.for-camps-box {
-		left: 0;
+		left: 4px;
 		top: 105px;
 	}
 
@@ -425,6 +426,19 @@
 	.read-more-wrapper {
 		margin-top: 0;
 	}
+	.item-result-search {
+		padding-bottom: 20px;
+	}
+}
+
+@media (max-width: 315px) {
+	.pagination>.disabled>span, .pagination>.disabled>span:hover, .pagination>.disabled>span:focus,
+	.pagination>.disabled>a, .pagination>.disabled>a:hover, .pagination>.disabled>a:focus {
+		border: none;
+	}
+	.pagination>li>a, .pagination>li>span {
+		margin: 0;
+	}
 }
 
 @media (max-width: 310px) {
@@ -446,8 +460,9 @@
 		font-size: 24px;
 	}
 
-	.add-camp-link {
+	.for-camps-box a {
 		width: 100%;
+		display: block;
 	}
 
 	.container-footer {
@@ -473,11 +488,27 @@
 		padding-bottom: 205px;
 	}
 
-	.copyright {
-		bottom: -35px;
+	.for-camps-box {
+		top: 95px;
+		left: 0;
 	}
 
-	.for-camps-box {
-		top: 115px;
+    .title-rating {
+	    display: none !important;
+    }
+
+    .quantity-rating-wrapper {
+	    padding-left: 10px;
+    }
+	.pagination>li:first-child>a, .pagination>li:first-child>span, .pagination>li:last-child>a, .pagination>li:last-child>span {
+		width: 28px;
 	}
+
+	.pagination {
+		margin: 20px 0 20px -10px;
+	}
+    .menu-footer li a{
+	    padding: 8px;
+    }
+
 }

@@ -227,32 +227,19 @@ footer .logo {
 	color: #fff100;
 }
 
-/*.add-camp-link:before {*/
-	/*display: inline-block;*/
-	/*content: ' ';*/
-	/*background: url("../image/add-icon.png") no-repeat;*/
-	/*width: 23px;*/
-	/*height: 14px;*/
-/*}*/
-
-/*.edit-camp-link:before {*/
-	/*display: inline-block;*/
-	/*content: ' ';*/
-	/*background: url("../image/edit-icon.png") no-repeat;*/
-	/*width: 23px;*/
-	/*height: 15px;*/
-/*}*/
 
 .for-camps-box a span{
 	display: inline-block;
-	width: 23px;
+	width: 22px;
 	height: 15px;
 	color: white;
 }
 
+.for-camps-box a:hover span{
+	color: #fff100;
+}
+
 .copyright {
-	/*position: absolute;*/
-	/*bottom: 25px;*/
 	width: 100%;
 	padding: 20px 0 0 18px;
 	color: #ffffff;
@@ -1079,4 +1066,9 @@ footer .logo {
 .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
 	background: #64bf00;
 	border-color: #64bf00;
+}
+
+.pagination>.disabled>span, .pagination>.disabled>span:hover, .pagination>.disabled>span:focus,
+.pagination>.disabled>a, .pagination>.disabled>a:hover, .pagination>.disabled>a:focus {
+	cursor: text;
 }
