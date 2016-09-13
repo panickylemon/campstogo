@@ -134,6 +134,11 @@
 		float: left;
 		margin-bottom: 10px;
 	}
+	.card-product-camp-link {
+		width: 100%;
+		float: none;
+		margin-top: -10px;
+	}
 }
 
 @media (max-width: 760px) {
@@ -303,6 +308,9 @@
 	.item-result-search-place {
 		font-size: 18px;
 	}
+	.link-view-map a{
+		font-size: 18px;
+	}
 
 }
 
@@ -428,6 +436,9 @@
 	}
 	.item-result-search {
 		padding-bottom: 20px;
+	}
+	.breadcrumb {
+		margin: 10px 0 10px;
 	}
 }
 

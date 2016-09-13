@@ -5,13 +5,16 @@ jQuery(document).ready(function () {
     var firstScriptTag = document.getElementsByTagName('script')[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
+    var p = document.getElementById ("player");
+    $(p).hide();
+
     var player;
 
     onYouTubeIframeAPIReady = function () {
         player = new YT.Player('player', {
             height: '244',
             width: '434',
-            videoId: 'AkyQgpqRyBY',  // youtube video id
+            videoId: $(p).attr("data-video-id"),  // youtube video id
             playerVars: {
                 'autoplay': 0,
                 'rel': 0,
@@ -21,13 +24,7 @@ jQuery(document).ready(function () {
                 'onStateChange': onPlayerStateChange
             }
         });
-    }
-
-    var p = document.getElementById ("player");
-    $(p).hide();
-
-    var t = document.getElementById ("thumbnail");
-    t.src = "http://img.youtube.com/vi/AkyQgpqRyBY/0.jpg";
+    };
 
     onPlayerStateChange = function (event) {
         if (event.data == YT.PlayerState.ENDED) {
