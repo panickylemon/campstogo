@@ -1101,3 +1101,24 @@ footer .logo {
 	margin: auto;
 	padding-bottom: 35px;
 }
+
+.link-view-map{
+	display: inline-block;
+	border-bottom: 1px dotted #5cb000;;
+}
+
+.link-view-map a{
+	font-size: 20px;
+	color: #5cb000;
+	text-decoration: none;
+}
+
+.item-card-product .item-result-search-place{
+	display: inline-block;
+}
+
+.link-view-map a span:before{
+	background: url("../image/place-icon.png") no-repeat;
+	content: ' ';
+	display: inline-block;
+}
