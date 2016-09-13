@@ -223,20 +223,31 @@ footer .logo {
 	text-decoration: none;
 }
 
-.add-camp-link:before {
-	display: inline-block;
-	content: ' ';
-	background: url("../image/add-icon.png") no-repeat;
-	width: 23px;
-	height: 14px;
+.for-camps-box a:hover p{
+	color: #fff100;
 }
 
-.edit-camp-link:before {
+/*.add-camp-link:before {*/
+	/*display: inline-block;*/
+	/*content: ' ';*/
+	/*background: url("../image/add-icon.png") no-repeat;*/
+	/*width: 23px;*/
+	/*height: 14px;*/
+/*}*/
+
+/*.edit-camp-link:before {*/
+	/*display: inline-block;*/
+	/*content: ' ';*/
+	/*background: url("../image/edit-icon.png") no-repeat;*/
+	/*width: 23px;*/
+	/*height: 15px;*/
+/*}*/
+
+.for-camps-box a span{
 	display: inline-block;
-	content: ' ';
-	background: url("../image/edit-icon.png") no-repeat;
 	width: 23px;
 	height: 15px;
+	color: white;
 }
 
 .copyright {
@@ -1062,4 +1073,10 @@ footer .logo {
 	background: none;
 	border: none;
 	color: #404041;
+}
+
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover,
+.pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+	background: #64bf00;
+	border-color: #64bf00;
 }

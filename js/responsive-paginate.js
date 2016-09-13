@@ -164,7 +164,7 @@
     	    		width += $container.find("li").eq(i).children("a").eq(0).outerWidth();
     	    		width += $container.find("li").eq(i).children("span").eq(0).outerWidth();
     	    	}
-    	    	return width;
+    	    	return width + 160;
     	    }
 
     	    this.els = $container.find("li");
