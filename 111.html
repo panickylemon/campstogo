@@ -42,13 +42,16 @@ tag.src = "http://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
+var p = document.getElementById ("player");
+$(p).hide();
+
 var player;
 
 onYouTubeIframeAPIReady = function () {
     player = new YT.Player('player', {
         height: '244',
         width: '434',
-        videoId: 'AkyQgpqRyBY',  // youtube video id
+        videoId: $(p).attr("data-video-id"),  // youtube video id
         playerVars: {
             'autoplay': 0,
             'rel': 0,
@@ -58,19 +61,13 @@ onYouTubeIframeAPIReady = function () {
             'onStateChange': onPlayerStateChange
         }
     });
-}
-
-var p = document.getElementById ("player");
-$(p).hide();
-
-var t = document.getElementById ("thumbnail");
-t.src = "http://img.youtube.com/vi/AkyQgpqRyBY/0.jpg";
+};
 
 onPlayerStateChange = function (event) {
     if (event.data == YT.PlayerState.ENDED) {
         $('.start-video').fadeIn('normal');
     }
-}
+};
 
 $(document).on('click', '.start-video', function () {
     $(this).hide();
@@ -80,9 +77,9 @@ $(document).on('click', '.start-video', function () {
 })});
 </script>
 </head>
-<div id="player"></div>
+<div id="player" data-video-id="AkyQgpqRyBY"></div>
 <div id="thumbnail_container" class="thumbnail_container">
-    <img class="thumbnail" id="thumbnail" />
+    <img class="thumbnail" id="thumbnail" src = "http://img.youtube.com/vi/AkyQgpqRyBY/0.jpg"/>
 </div>
 <a class="start-video"><img width="64" src="http://image.flaticon.com/icons/png/512/0/375.png" style="filter: invert(100%); -webkit-filter: invert(100%);"></a>
 </html>
