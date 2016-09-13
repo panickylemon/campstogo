@@ -1072,3 +1072,32 @@ footer .logo {
 .pagination>.disabled>a, .pagination>.disabled>a:hover, .pagination>.disabled>a:focus {
 	cursor: text;
 }
+
+
+/*card product page*/
+
+.breadcrumb>li+li:before {
+	content: ">";
+	padding: 0 5px;
+	color: #a3a3a3;
+}
+
+.breadcrumb li a{
+	color: #a3a3a3;
+	text-decoration: none;
+}
+
+.breadcrumb>.active {
+	color: #5cb000;
+}
+
+.breadcrumb {
+	padding: 8px 2px;
+	margin: 10px 0 20px;
+	background: none;
+}
+
+.item-card-product{
+	margin: auto;
+	padding-bottom: 35px;
+}
