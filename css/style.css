@@ -347,6 +347,11 @@ footer .logo {
 .banner-text {
 	position: relative;
 	top: 32%;
+	/*-moz-transform: translateY(-50%);*/
+	/*-webkit-transform: translateY(-50%);*/
+	/*-o-transform: translateY(-50%);*/
+	/*-ms-transform: translateY(-50%);*/
+
 	transform: translateY(-50%);
 	color: white;
 	text-align: center;
@@ -585,6 +590,10 @@ footer .logo {
 .new-camps-item-title {
 	position: absolute;
 	top: 50%;
+	/*-moz-transform: translateY(-50%);*/
+	/*-webkit-transform: translateY(-50%);*/
+	/*-o-transform: translateY(-50%);*/
+	/*-ms-transform: translateY(-50%);*/
 	transform: translateY(-50%);
 	width: 100%;
 	padding: 0 5px;
@@ -1236,6 +1245,10 @@ footer .logo {
 	position: absolute;
 	top: 50%;
 	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	padding: 12px;
 	cursor: pointer;
@@ -1260,6 +1273,10 @@ img.thumbnail {
 	position: absolute;
 	top: 50%;
 	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
 
@@ -1363,9 +1380,9 @@ img.thumbnail {
 	padding-right: 10px;
 	color: #404041;
 	font-size: 16px;
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	border-radius: 2px;
+	-webkit-border-radius: 2px !important;
+	-moz-border-radius: 2px !important;
+	border-radius: 2px !important;
 }
 
 input.question-camp::-webkit-input-placeholder {
