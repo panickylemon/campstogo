@@ -75,6 +75,20 @@ body {
 	url('../bootstrap/fonts/fontawesome-webfont.svg') format('svg');
 }
 
+
+/* для iphone - убирает автоматическое откругление уголов */
+
+input[type="text"],input[type="password"], textarea{
+	border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+	-o-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	-khtml-border-radius: 0 !important;
+	-webkit-appearance: none;
+	line-height: inherit;
+}
+
+
 a img {
 	border: none;
 	outline: none !important;
@@ -372,12 +386,12 @@ footer .logo {
 }
 
 .filter-box-header input:first-child {
-	-webkit-border-top-left-radius: 3px;
-	-webkit-border-bottom-left-radius: 3px;
-	-moz-border-radius-topleft: 3px;
-	-moz-border-radius-bottomleft: 3px;
-	border-top-left-radius: 3px;
-	border-bottom-left-radius: 3px;
+	-webkit-border-top-left-radius: 3px !important;;
+	-webkit-border-bottom-left-radius: 3px !important;;
+	-moz-border-radius-topleft: 3px !important;;
+	-moz-border-radius-bottomleft: 3px !important;;
+	border-top-left-radius: 3px !important;;
+	border-bottom-left-radius: 3px !important;;
 }
 
 .filter-box-header input:not(:first-child) {
