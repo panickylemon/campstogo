@@ -181,6 +181,39 @@
 
 }
 
+@media (max-width: 630px) {
+	.video-container {
+		float: none;
+		width: 99%;
+		margin: auto;
+	}
+
+	.picture-container{
+		margin-top: 20px;
+		float: none;
+		width: 100%;
+	}
+
+	.wrapper-pictute-card-product {
+		 text-align: center;
+	}
+	.pictute-item-card-product {
+		width: 33.33%;
+		width: calc(100% / 3);
+		margin: 0;
+		display: block;
+		float: left;
+	}
+
+	.pictute-item-card-product img{
+		width: 97%;
+	}
+
+	/*.top-line-wrapper-pictute {*/
+		/*margin-bottom: 2%;*/
+	/*}*/
+}
+
 @media (max-width: 600px) {
 	.trigger-advantages .col-xxs {
 		width: 100%;
@@ -418,8 +451,8 @@
 	.camps-assignment-wrapper .col-xxs {
 		width: 100%;
 	}
-
 }
+
 
 @media (max-width: 340px) {
 	.button-read-more {
@@ -521,5 +554,9 @@
     .menu-footer li a{
 	    padding: 8px;
     }
+
+	.picture-container {
+		margin-top: 8px;
+	}
 
 }
