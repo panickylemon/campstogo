@@ -1292,12 +1292,6 @@ img.thumbnail {
 	width: 95%;
 }
 
-
-
-
-
-
-
 .wrapper-text-card-product{
 	width: 100%;
 	margin: 20px auto 0;
@@ -1315,4 +1309,26 @@ img.thumbnail {
 
 .value-characteristics-camp{
 	color: #5cb000;
+}
+
+.wrapper-text-card-product h2{
+	font-size: 24px;
+	margin: 20px 0 15px;
+}
+
+.description-text{
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+
+.description-characteristics p{
+	margin: 0 0 5px;
+}
+
+.description-characteristics ul{
+	padding: 0 20px;
+}
+
+.description-characteristics ul li{
+	margin: 5px 0;
 }
