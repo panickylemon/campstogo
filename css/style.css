@@ -347,11 +347,10 @@ footer .logo {
 .banner-text {
 	position: relative;
 	top: 32%;
-	/*-moz-transform: translateY(-50%);*/
-	/*-webkit-transform: translateY(-50%);*/
-	/*-o-transform: translateY(-50%);*/
-	/*-ms-transform: translateY(-50%);*/
-
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 	color: white;
 	text-align: center;
@@ -587,13 +586,17 @@ footer .logo {
 	opacity: 0.3;
 }
 
+a:hover, a:focus {
+	text-decoration: none;
+}
+
 .new-camps-item-title {
 	position: absolute;
 	top: 50%;
-	/*-moz-transform: translateY(-50%);*/
-	/*-webkit-transform: translateY(-50%);*/
-	/*-o-transform: translateY(-50%);*/
-	/*-ms-transform: translateY(-50%);*/
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 	width: 100%;
 	padding: 0 5px;
@@ -994,6 +997,7 @@ footer .logo {
 
 .result-camp-old-price{
 	padding-right: 10px;
+	margin-bottom: 7px;
 	font-size: 20px;
 	font-weight: 300;
 }
@@ -1384,6 +1388,7 @@ img.thumbnail {
 	-moz-border-radius: 2px !important;
 	border-radius: 2px !important;
 }
+
 
 input.question-camp::-webkit-input-placeholder {
 	color: #a3a3a3;
