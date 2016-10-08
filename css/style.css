@@ -1450,3 +1450,191 @@ input.question-camp:-ms-input-placeholder {
 .btn.button-question:hover, .btn.button-question:focus, .btn.button-question.focus {
 	color: #ffffff;
 }
+
+
+
+/*partnership*/
+
+.wrapper-partnership-header {
+	position: relative;
+	background: url("../image/partnership-bg.png") no-repeat 50% top;
+	height: 460px;
+}
+
+.text-box-header{
+	position: relative;
+	top: 39%;
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	color: #ffffff;
+	text-align: center;
+}
+
+.text-box-header h1{
+	font-size: 64px;
+	font-weight: 500;
+}
+
+.button-header{
+	width: 100%;
+	max-width: 310px;
+	height: 45px;
+	margin: 80px auto 0;
+	background: #5cb000;
+	box-sizing: border-box;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.button-header a{
+	color: white;
+	line-height: 45px;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.button-header:hover{
+	background: #5ca600;
+}
+
+.button-header:active{
+	background: #64bf00;
+}
+
+.about-box-wraper{
+	padding: 55px 0 80px;
+	text-align: center;
+}
+
+.about-box-wraper h2{
+	font-size: 48px;
+	font-weight: 300;
+}
+
+.about-box-text{
+	padding-top: 15px;
+	font-size: 20px;
+}
+
+.about-wrapper-icon{
+	margin-top: 35px;
+}
+
+.about-box-icon{
+	float: left;
+	width: 16.66%;
+	padding-bottom: 30px;
+}
+
+.about-item-icon{
+	margin: auto;
+	width: 43px;
+	height: 45px;
+}
+
+.about-item-independence{
+	background: url("../image/independece-grey-icon.png") no-repeat center;
+}
+
+.about-item-economy{
+	background: url("../image/economy-grey-icon.png") no-repeat center;
+}
+
+.about-item-support{
+	background: url("../image/support-grey-icon.png") no-repeat center;
+}
+
+.about-item-diversity{
+	background: url("../image/diversity-grey-icon.png") no-repeat center;
+}
+
+.about-item-mobility{
+	background: url("../image/mobility-grey-icon.png") no-repeat center;
+}
+
+.about-item-information{
+	background: url("../image/information-grey-icon.png") no-repeat center;
+}
+
+.about-item-icon-text{
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.about-box-wraper .button-watch{
+	margin: 5px auto 0;
+}
+
+.statistics-box-wraper{
+	position: relative;
+	background: url("../image/partnership-bg.png") no-repeat 50% top;
+	padding: 55px 0 85px;
+	text-align: center;
+}
+
+.statistics-box-wraper h2{
+	color: #ffffff;
+	font-size: 48px;
+	font-weight: 300;
+}
+
+.wrapper-camps-statistics{
+	margin-top: 55px;
+}
+
+.wrapper-number-camps-statistics{
+	width: 60%;
+	float: left;
+}
+
+.item-camps-statistics{
+	width: 100%;
+	max-width: 400px;
+	margin: 0 auto 3px;
+}
+
+.number-camps-statistics{
+	float: right;
+	height: 36px;
+	margin: 0;
+	line-height: 36px;
+	background: #ffffff;
+	font-size: 28px;
+	font-weight: 500;
+	color: #01021e;
+}
+
+.china-camps-statistics{
+	width: 100%;
+}
+
+.france-camps-statistics{
+	width: 77%;
+}
+
+.indonesia-camps-statistics{
+	width: 69%;
+}
+
+.slovakia-camps-statistics{
+	width: 54%;
+}
+
+.bulgaria-camps-statistics{
+	width: 33%;
+}
+
+.name-country-camps-statistics{
+	float: left;
+	padding-left: 20px;
+	margin: 0;
+	line-height: 36px;
+	font-size: 28px;
+	font-weight: 500;
+	color: white;
+	text-align: left;
+}
