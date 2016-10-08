@@ -81,7 +81,7 @@
 	}
 }
 
-@media (max-width: 900px) {
+@media (max-width: 940px) {
 	.for-camps-title {
 		display: none;
 	}
@@ -120,6 +120,18 @@
 	}
 }
 
+@media (max-width: 810px) {
+	.for-camps-box {
+		top: 93px;
+		right: 21px;
+		font-size: 14px;
+	}
+
+	.menu-footer {
+		float: right;
+	}
+}
+
 @media (max-width: 780px) {
 	.theme-camp-title {
 		display: none;
@@ -141,17 +153,7 @@
 	}
 }
 
-@media (max-width: 760px) {
-	.for-camps-box {
-		top: 93px;
-		right: 21px;
-		font-size: 14px;
-	}
 
-	.menu-footer {
-		float: right;
-	}
-}
 
 @media (max-width: 698px) {
 	.banner-main-text {
@@ -208,10 +210,6 @@
 	.pictute-item-card-product img{
 		width: 97%;
 	}
-
-	/*.top-line-wrapper-pictute {*/
-		/*margin-bottom: 2%;*/
-	/*}*/
 }
 
 @media (max-width: 600px) {
@@ -239,7 +237,69 @@
 	}
 }
 
+
 @media (max-width: 570px) {
+	.logo {
+		max-width: 150px;
+		margin-top: 20px;
+	}
+
+	.mobile-menu-burger {
+		display: block;
+	}
+
+	.menu li a:hover {
+		border: 2px solid rgba(255, 255, 255, 0.0);
+	}
+
+	.menu-header ul {
+		display: none;
+		position: absolute;
+		z-index: 100;
+		top: 0;
+		right: 0;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		background: rgba(25, 25, 25, 0.8);
+		text-align: center;
+	}
+
+	.menu-header {
+		float: none;
+	}
+
+	.menu-header li {
+		width: 100%;
+		margin: auto;
+		padding: 5px 0;
+	}
+
+	.menu-header li:first-child {
+		padding: 70px 0 5px;
+	}
+
+	.menu-header li:last-child {
+		padding: 5px 0 20px;
+	}
+
+	.menu-header li a {
+		display: inline-block;
+		width: 100%;
+	}
+
+	.button-watch {
+		margin: 25px auto 0;
+	}
+
+	.for-camps-box {
+		top: 85px;
+	}
+
+	.menu-footer {
+		margin-top: 32px;
+	}
+
 	.item-result-image{
 		width: 100%;
 		float: none;
@@ -253,6 +313,8 @@
 		margin: 20px 0 10px;
 	}
 }
+
+
 
 @media (max-width: 510px) {
 	.filter-box-header {
@@ -291,7 +353,7 @@
 
 	.filter-box-header form {
 		margin: 0 auto;
-		padding-top: 12px;
+		padding-top: 25px;
 	}
 
 	.banner-text {
@@ -372,7 +434,7 @@
 
 	.for-camps-box {
 		left: 4px;
-		top: 105px;
+		top: 102px;
 	}
 
 	.copyright {
@@ -384,64 +446,6 @@
 	}
 }
 
-@media (max-width: 450px) {
-	.logo {
-		max-width: 150px;
-		margin-top: 20px;
-	}
-
-	.mobile-menu-burger {
-		display: block;
-	}
-
-	.menu li a:hover {
-		border: 2px solid rgba(255, 255, 255, 0.0);
-	}
-
-	.menu-header ul {
-		display: none;
-		position: absolute;
-		z-index: 100;
-		top: 0;
-		right: 0;
-		width: 100%;
-		margin: 0;
-		padding: 0;
-		background: rgba(25, 25, 25, 0.7);
-		text-align: center;
-	}
-
-	.menu-header {
-		float: none;
-	}
-
-	.menu-header li {
-		width: 100%;
-		margin: auto;
-		padding: 10px 0 20px;
-	}
-
-	.menu-header li:first-child {
-		padding: 70px 0 10px;
-	}
-
-	.menu-header li a {
-		display: inline-block;
-		width: 100%;
-	}
-
-	.button-watch {
-		margin: 25px auto 0;
-	}
-
-	.wrapper-header {
-		height: 350px;
-	}
-
-	.for-camps-box {
-		top: 100px;
-	}
-}
 
 @media (max-width: 420px) {
 	.latest-news-item-box {
@@ -523,7 +527,8 @@
 	}
 }
 
-@media (max-width: 250px) {
+
+@media (max-width: 275px) {
 	.container-footer {
 		height: 205px;
 	}
@@ -533,9 +538,24 @@
 	}
 
 	.for-camps-box {
-		top: 95px;
+		top: 125px;
 		left: 0;
 	}
+	.menu-footer li a{
+		padding: 8px;
+	}
+
+	.menu-footer li:last-child{
+		width: 100%;
+		margin-top: 7px;
+	}
+
+	.copyright {
+		bottom: -38px;
+	}
+}
+
+@media (max-width: 250px) {
 
     .title-rating {
 	    display: none !important;
@@ -551,9 +571,6 @@
 	.pagination {
 		margin: 20px 0 20px -10px;
 	}
-    .menu-footer li a{
-	    padding: 8px;
-    }
 
 	.picture-container {
 		margin-top: 8px;
