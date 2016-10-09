@@ -46,6 +46,26 @@ jQuery(document).ready(function ($) {
             input.val(input.attr('placeholder'));
         }
     }).blur();
+
+    function resizeResultItem() {
+        var max_height = 0;
+        $(".wrapper-item-news").each(function () {
+            var item_height =  $(this).outerHeight();
+            if (item_height > max_height) {
+                max_height = item_height;
+
+                }
+        });
+        $(".wrapper-item-news").each(function () {
+            $(this).height(max_height);
+        });
+    }
+    $(window).resize(function(){
+        resizeResultItem();
+    });
+    $(window).load(function(){
+        resizeResultItem();
+    });
 });
 
 
