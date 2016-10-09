@@ -1689,12 +1689,14 @@ input.question-camp:-ms-input-placeholder {
 }
 
 .box-news{
+	position: relative;
 	width: 96%;
+	margin-bottom: 20px;
 }
 
 
 .wrapper-item-news:nth-child(3n+2) .box-news{
-	margin: auto;
+	margin: 0 auto 20px;
 }
 
 .wrapper-item-news:nth-child(3n) .box-news{
@@ -1711,14 +1713,14 @@ input.question-camp:-ms-input-placeholder {
 	background: #000000;
 }
 
-.wrapper-item-news a .date-news{
+.wrapper-item-news .date-news{
 	margin: 0 0 2px;
 	font-size: 14px;
 	text-transform: uppercase;
 	color: #404041;
 }
 
-.wrapper-item-news a .name-news{
+.wrapper-item-news .name-news{
 	margin: 0 0 5px;
 	font-size: 20px;
 	font-weight: 500;
@@ -1726,7 +1728,7 @@ input.question-camp:-ms-input-placeholder {
 	line-height: 1.3;
 }
 
-.wrapper-item-news a .description-news{
+.wrapper-item-news .description-news{
 	font-size: 14px;
 	color: #a3a3a3;
 }
@@ -1735,17 +1737,18 @@ input.question-camp:-ms-input-placeholder {
 	opacity: 0.3;
 }
 
-.wrapper-item-news:hover a .name-news{
+.wrapper-item-news:hover .name-news{
 	color: #eb008b;
 }
 
-.wrapper-item-news:hover .wrapper-view-comment{
+.wrapper-item-news:hover .wrapper-view-comment, .wrapper-item-news:hover .wrapper-view-comment-video{
 	display: block;
 }
 
-.wrapper-view-comment{
+.wrapper-view-comment, .wrapper-view-comment-video{
 	display: none;
 	position: absolute;
+	z-index: 100;
 	bottom: 5px;
 	left: 9px;
 	color: #ffffff;
@@ -1774,3 +1777,11 @@ input.question-camp:-ms-input-placeholder {
 	background: url("../image/comment-icon.png") no-repeat;
 }
 
+
+.wrapper-item-news .start-video img {
+	opacity: 1 !important;
+}
+
+.wrapper-button-more-news .button-watch{
+	margin: 40px auto 80px;
+}
