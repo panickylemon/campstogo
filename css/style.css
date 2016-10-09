@@ -1673,3 +1673,12 @@ input.question-camp:-ms-input-placeholder {
 .wrapper-button-join-camp .button-watch{
 	margin: 90px auto;
 }
+
+
+/*news*/
+
+.wrapper-news-header {
+	position: relative;
+	background: url("../image/news-bg.png") no-repeat center;
+	height: 460px;
+}
