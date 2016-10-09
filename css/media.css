@@ -63,6 +63,9 @@
 		height: 270px;
 		background-size: auto 100%;
 	}
+	.wrapper-page-item-news h1 {
+		font-size: 26px;
+	}
 }
 
 @media (max-width: 970px) {
@@ -199,6 +202,27 @@
 	.camp-types-text{
 		margin-top: 70px;
 	}
+
+	.wrapper-page-item-news h1 {
+		width: 100%;
+	}
+
+	.content-news {
+		width: 100%;
+	}
+
+	.wrapper-social-network {
+		width: 100%;
+		margin: 30px 0;
+	}
+
+	/*.box-social-network {*/
+		/*float: none;*/
+	/*}*/
+
+    /*.box-shares-number{*/
+	    /*float: right;*/
+    /*}*/
 }
 
 
@@ -252,6 +276,11 @@
 		float: none;
 		width: 99%;
 		margin: auto;
+	}
+
+	.content-news .video-container{
+		max-width: 100%;
+		margin: 10px 0 0;
 	}
 
 	.picture-container{
@@ -429,6 +458,11 @@
 	.wrapper-button-join-camp .button-watch{
 		margin: 50px auto;
 	}
+
+	.wrapper-item-news-header {
+		background: url("../image/news-bg.png") no-repeat center 31.5%;
+		height: 80px;
+	}
 }
 
 
@@ -551,6 +585,10 @@
 		font-size: 22px;
 	}
 
+	.wrapper-page-item-news h1 {
+		font-size: 22px;
+	}
+
 }
 
 @media (max-width: 490px) {
@@ -598,6 +636,9 @@
 
 	.camps-assignment-wrapper .col-xxs {
 		width: 100%;
+	}
+	.wrapper-quote{
+		font-size: 14px;
 	}
 }
 
