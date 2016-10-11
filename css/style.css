@@ -1888,6 +1888,7 @@ input.question-camp:-ms-input-placeholder {
 
 .wrapper-other-news{
 	background: #f1f1f2;
+	padding: 0 0 25px 0;
 }
 
 .title-other-news{
@@ -1896,4 +1897,28 @@ input.question-camp:-ms-input-placeholder {
 	text-align: center;
 	font-size: 24px;
 	font-weight: 500;
+}
+
+.wrapper-name-other-news{
+	position: absolute;
+	top: 50%;
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	padding: 0 10px;
+	text-align: center;
+	width: 100%;
+}
+
+.wrapper-name-other-news{
+	display: none;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.item-news-page .wrapper-item-news:hover .wrapper-name-other-news{
+	display: block;
 }

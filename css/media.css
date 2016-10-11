@@ -66,6 +66,10 @@
 	.wrapper-page-item-news h1 {
 		font-size: 26px;
 	}
+
+    .item-news-page .wrapper-item-news:nth-child(3n){
+	    display: none;
+    }
 }
 
 @media (max-width: 970px) {
