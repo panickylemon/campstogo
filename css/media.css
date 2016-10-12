@@ -149,6 +149,32 @@
 	}
 }
 
+@media (max-width: 910px) {
+	.box-left-image-about, .box-left-text-about{
+		width: 45%;
+	}
+
+	.box-right-image-about, .box-right-text-about{
+		float: right;
+	}
+}
+
+
+@media (max-width: 860px) {
+	.wrapper-about-header h1{
+		margin: 50px auto 40px;
+		font-size: 48px;
+	}
+
+	.box-text-header-about p{
+		margin: 35px auto 30px;
+		font-size: 20px;
+	}
+
+	.wrapper-text-about-header {
+		padding-bottom: 60px;
+	}
+}
 
 @media (max-width: 830px) {
 	.trigger-item {
@@ -193,6 +219,7 @@
 	.menu-footer {
 		float: right;
 	}
+
 }
 
 @media (max-width: 780px) {
@@ -280,6 +307,31 @@
 	.about-box-icon{
 		float: left;
 		width: 33.33%;
+	}
+
+}
+
+@media (max-width: 670px) {
+	.box-left-image-about, .box-text-header-about p{
+		display: none;
+	}
+
+	.box-image-about, .box-text-header-about{
+		width: 100%;
+		text-align: center;
+	}
+
+	.wrapper-text-about-header {
+		padding: 50px 0 40px;
+	}
+
+	.button-header-about {
+		margin: 0 auto 15px;
+	}
+
+	.wrapper-about-header h1 {
+		margin: 40px auto 30px;
+		font-size: 40px;
 	}
 
 }
@@ -708,7 +760,6 @@
 	.about-box-icon{
 		width: 50%;
 	}
-
 	.name-country-camps-statistics{
 		font-size: 20px;
 		padding-left: 10px;
@@ -718,6 +769,13 @@
 	}
 	.wrapper-button-join-camp .button-watch{
 		margin: 40px auto;
+	}
+    .mobile-hidden{
+	    display: none;
+    }
+
+	.wrapper-about-header h1 {
+		font-size: 34px;
 	}
 }
 

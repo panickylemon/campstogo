@@ -1929,5 +1929,68 @@ input.question-camp:-ms-input-placeholder {
 .wrapper-about-header {
 	position: relative;
 	background: #9e6f9c;
-	height: 800px;
+	/*height: 770px;*/
+}
+
+.wrapper-about-header h1{
+	margin: 60px auto 55px;
+	font-size: 54px;
+	font-weight: 300;
+	color: white;
+	text-align: center;
+}
+
+.box-image-about, .box-text-header-about{
+	width: 50%;
+	float: left;
+}
+
+.box-image-about img{
+	width: 100%;
+	margin: auto;
+	/*border: 1px solid red;*/
+}
+
+.box-left-image-about img, .box-left-text-about p{
+	max-width: 392px;
+}
+
+.box-right-image-about img, .box-right-text-about p{
+	max-width: 437px;
+}
+
+.button-header-about{
+	width: 100%;
+	max-width: 310px;
+	height: 45px;
+	margin: 0 auto;
+	background: #4d414a;
+	box-sizing: border-box;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.button-header-about:hover{
+	background: #483845;
+}
+
+.box-text-header-about{
+	text-align: center;
+}
+
+.box-text-header-about p{
+	margin: 35px auto 30px;
+	font-size: 26px;
+	font-weight: 500;
+}
+
+.button-header-about a{
+	color: white;
+	line-height: 45px;
+	font-size: 20px;
+}
+
+.wrapper-text-about-header{
+	padding-bottom: 80px;
 }
