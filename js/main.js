@@ -67,6 +67,11 @@ jQuery(document).ready(function ($) {
     $(window).load(function(){
         resizeResultItem();
     });
+
+    $(".fancybox").fancybox({
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
 });
 
 
