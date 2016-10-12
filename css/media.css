@@ -90,8 +90,6 @@
 	.for-camps-title {
 		display: none;
 	}
-}
-@media (max-width: 920px) {
 	.wrapper-partnership-header h1, .wrapper-news-header h1 {
 		font-size: 49px;
 	}
@@ -101,6 +99,18 @@
 	.about-box-wrapper, .statistics-box-wrapper {
 		padding: 25px 0 50px;
 	}
+}
+
+@media (max-width: 920px) {
+	/*.wrapper-partnership-header h1, .wrapper-news-header h1 {*/
+		/*font-size: 49px;*/
+	/*}*/
+	/*.about-box-wrapper h2, .statistics-box-wrapper h2 {*/
+		/*font-size: 34px;*/
+	/*}*/
+	/*.about-box-wrapper, .statistics-box-wrapper {*/
+		/*padding: 25px 0 50px;*/
+	/*}*/
 	.camp-types-text {
 		width: 50%;
 		max-width: 395px;
@@ -774,7 +784,7 @@
 	    display: none;
     }
 
-	.wrapper-about-header h1 {
+	.wrapper-about-header h1{
 		font-size: 34px;
 	}
 }
