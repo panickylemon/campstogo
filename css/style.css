@@ -1922,3 +1922,12 @@ input.question-camp:-ms-input-placeholder {
 .item-news-page .wrapper-item-news:hover .wrapper-name-other-news{
 	display: block;
 }
+
+
+/*about page*/
+
+.wrapper-about-header {
+	position: relative;
+	background: #9e6f9c;
+	height: 800px;
+}
