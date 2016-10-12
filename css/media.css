@@ -99,6 +99,15 @@
 	.about-box-wrapper, .statistics-box-wrapper, .team-wrapper {
 		padding: 25px 0 50px;
 	}
+	.team-box {
+		padding-top: 30px;
+	}
+	.name-team {
+		font-size: 20px;
+	}
+	.team-wrapper .button-watch{
+		margin: 25px auto 10px;
+	}
 }
 
 @media (max-width: 920px) {
@@ -272,16 +281,13 @@
 		margin: 30px 0;
 	}
 
-	/*.box-social-network {*/
-		/*float: none;*/
-	/*}*/
-
-    /*.box-shares-number{*/
-	    /*float: right;*/
-    /*}*/
 }
 
-
+@media (max-width: 730px) {
+	.wrapper-team-item{
+		width: 50%;
+	}
+}
 
 @media (max-width: 698px) {
 	.banner-main-text {
@@ -706,6 +712,17 @@
 		padding: 20px 0 0 14px;
 		font-size: 12px;
 		font-weight: 300;
+	}
+
+	.wrapper-team-item{
+		width: 100%;
+		height: auto !important;
+	}
+	.team-item {
+		padding-bottom: 15px;
+	}
+	.team-box {
+		padding-top: 15px;
 	}
 }
 

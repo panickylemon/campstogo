@@ -2017,6 +2017,11 @@ input.question-camp:-ms-input-placeholder {
 	padding-bottom: 30px;
 }
 
+.team-item img{
+	width: 90%;
+	max-width: 150px;
+}
+
 .name-team{
 	line-height: 1.2;
 	margin: 10px 0 5px;
@@ -2026,4 +2031,16 @@ input.question-camp:-ms-input-placeholder {
 
 .description-team{
 	font-size: 14px;
+}
+
+.team-wrapper .button-watch{
+	 background: #f1f1f2;
+}
+
+.team-wrapper .button-watch:hover{
+	background: #ffffff;
+}
+
+.team-wrapper .button-watch:hover a{
+	color: #404041;
 }
