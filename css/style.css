@@ -2001,7 +2001,6 @@ input.question-camp:-ms-input-placeholder {
 
 .wrapper-team-item{
 	width: 33.33%;
-	width: calc(100%/3);
 	float: left;
 	text-align: center;
 }
