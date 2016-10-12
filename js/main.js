@@ -63,10 +63,10 @@ jQuery(document).ready(function ($) {
     }
     $(window).resize(function(){
         resizeResultItem(".news-page .wrapper-item-news");
-        resizeResultItem(".news-page .wrapper-item-news");
+        resizeResultItem(".wrapper-team-item");
     });
     $(window).load(function(){
-        resizeResultItem(".wrapper-team-item");
+        resizeResultItem(".news-page .wrapper-item-news");
         resizeResultItem(".wrapper-team-item");
     });
 
