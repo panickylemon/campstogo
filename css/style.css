@@ -2014,9 +2014,12 @@ input.question-camp:-ms-input-placeholder {
 	width: 100%;
 	max-width: 210px;
 	margin: auto;
+	padding-bottom: 30px;
 }
 
 .name-team{
+	line-height: 1.2;
+	margin: 10px 0 5px;
 	font-size: 24px;
 	font-weight: 500;
 }
