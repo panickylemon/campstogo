@@ -1489,12 +1489,12 @@ input.question-camp:-ms-input-placeholder {
 	background: #64bf00;
 }
 
-.about-box-wrapper {
+.about-box-wrapper, .team-wrapper {
 	padding: 55px 0 80px;
 	text-align: center;
 }
 
-.about-box-wrapper h2 {
+.about-box-wrapper h2, .team-wrapper h2{
 	font-size: 48px;
 	font-weight: 300;
 }
@@ -1993,4 +1993,34 @@ input.question-camp:-ms-input-placeholder {
 
 .wrapper-text-about-header{
 	padding-bottom: 80px;
+}
+
+.team-wrapper{
+	background: #f1f1f2;
+}
+
+.wrapper-team-item{
+	width: 33.33%;
+	width: calc(100%/3);
+	float: left;
+	text-align: center;
+}
+
+.team-box{
+	padding-top: 60px;
+}
+
+.team-item{
+	width: 100%;
+	max-width: 210px;
+	margin: auto;
+}
+
+.name-team{
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.description-team{
+	font-size: 14px;
 }

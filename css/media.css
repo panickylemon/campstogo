@@ -93,10 +93,10 @@
 	.wrapper-partnership-header h1, .wrapper-news-header h1 {
 		font-size: 49px;
 	}
-	.about-box-wrapper h2, .statistics-box-wrapper h2 {
+	.about-box-wrapper h2, .statistics-box-wrapper h2, .team-wrapper h2{
 		font-size: 34px;
 	}
-	.about-box-wrapper, .statistics-box-wrapper {
+	.about-box-wrapper, .statistics-box-wrapper, .team-wrapper {
 		padding: 25px 0 50px;
 	}
 }
@@ -597,7 +597,7 @@
 		font-size: 36px;
 	}
 
-	.about-box-wrapper h2, .statistics-box-wrapper h2 {
+	.about-box-wrapper h2, .statistics-box-wrapper h2, .team-wrapper h2{
 		font-size: 28px;
 	}
 
@@ -609,7 +609,7 @@
 		font-size: 16px;
 	}
 
-	.about-box-wrapper, .statistics-box-wrapper {
+	.about-box-wrapper, .statistics-box-wrapper, .team-wrapper {
 		padding: 15px 0 35px;
 	}
 
