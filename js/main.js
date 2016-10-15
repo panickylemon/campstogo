@@ -78,11 +78,12 @@ jQuery(document).ready(function ($) {
 
     $(".button-popup").fancybox({
         maxWidth	: 480,
-        //maxHeight	: 290,
+        maxHeight	: 290,
         autoSize	: false,
         closeClick	: false,
         openEffect	: 'none',
-        closeEffect	: 'none'
+        closeEffect	: 'none',
+
     });
 });
 
