@@ -75,6 +75,15 @@ jQuery(document).ready(function ($) {
 		openEffect	: 'none',
 		closeEffect	: 'none'
 	});
+
+    $(".button-popup").fancybox({
+        maxWidth	: 480,
+        //maxHeight	: 290,
+        autoSize	: false,
+        closeClick	: false,
+        openEffect	: 'none',
+        closeEffect	: 'none'
+    });
 });
 
 
