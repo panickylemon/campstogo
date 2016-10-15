@@ -80,6 +80,8 @@ jQuery(document).ready(function ($) {
         maxWidth	: 480,
         //maxHeight	: 290,
         autoSize	: false,
+        aspectRatio: true,
+        topRatio: 0.5,
         closeClick	: false,
         openEffect	: 'none',
         closeEffect	: 'none'
