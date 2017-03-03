@@ -2144,3 +2144,16 @@ input.question-camp:-ms-input-placeholder {
 	margin-bottom: 10px;
 	max-height: 130px;
 }
+
+.count-thumbs{
+	text-align: center;
+	position: absolute;
+	bottom: 10px;
+	z-index: 100;
+	left: 50%;
+	-moz-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
