@@ -95,14 +95,7 @@ jQuery(document).ready(function ($) {
         navText : ["<span class='arrow'><</span> Previous","Next <span class='arrow'>></span>"],
         dots: false,
         mouseDrag: false,
-        responsive:{
-            0:{
-                items:2
-            },
-            1000:{
-                items:3
-            }
-        }
+        items:3
     });
 
 });

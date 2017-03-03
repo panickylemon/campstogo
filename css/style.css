@@ -2108,6 +2108,7 @@ input.question-camp:-ms-input-placeholder {
 	font-size: 16px;
 	color: #404041;
 	padding: 10px 15px;
+	margin-left: 10px;
 }
 
 .picture-container .owl-nav:before{
@@ -2141,4 +2142,5 @@ input.question-camp:-ms-input-placeholder {
 
 .picture-container .owl-carousel .owl-item img{
 	margin-bottom: 10px;
+	max-height: 130px;
 }
