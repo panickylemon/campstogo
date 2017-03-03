@@ -84,9 +84,27 @@ jQuery(document).ready(function ($) {
         topRatio: 0.5,
         closeClick	: false,
         openEffect	: 'none',
-        closeEffect	: 'none',
+        closeEffect	: 'none'
 
     });
+
+
+    $(".owl-carousel").owlCarousel({
+        loop:true,
+        nav: true,
+        navText : ["<span class='arrow'><</span> Previous","Next <span class='arrow'>></span>"],
+        dots: false,
+        mouseDrag: false,
+        responsive:{
+            0:{
+                items:2
+            },
+            1000:{
+                items:3
+            }
+        }
+    });
+
 });
 
 
