@@ -2157,3 +2157,53 @@ input.question-camp:-ms-input-placeholder {
 	-ms-transform: translateX(-50%);
 	transform: translateX(-50%);
 }
+
+
+.button-green{
+	min-width: 145px;
+	margin: 20px 0 20px;
+	outline: none;
+	background: #5cb000;
+	color: #ffffff !important;
+	font-size: 16px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.button-green:hover, .button-green:focus{
+	color: #ffffff;
+	background: #5ca600;
+}
+
+.button-pink{
+	min-width: 145px;
+	margin: 20px 20px 20px 0;
+	outline: none;
+	background: #eb008b;
+	color: #ffffff;
+	font-size: 16px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.button-pink:hover, .button-pink:focus{
+	color: #ffffff;
+	background: #e20083;
+}
+
+.description-interview h2{
+	font-size: 24px;
+	margin: 40px 0 0;
+}
+
+.wrap-button_item-news{
+	margin: 40px 0;
+}
