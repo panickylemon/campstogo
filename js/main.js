@@ -1,4 +1,3 @@
-
 jQuery(document).ready(function ($) {
 
     $('input, textarea').placeholder();
@@ -98,7 +97,31 @@ jQuery(document).ready(function ($) {
         items:3
     });
 
+
+
+    sum();
+    $("#num1, #num2, #num3").on("keydown keyup", function() {
+        sum();
+    });
+
+    function sum() {
+        var num1 = $('.social-likes__counter_facebook').text();
+        var num2 = $('.social-likes__counter_twitter').text();
+        var num3 = $('.social-likes__counter_vkontakte').text();
+        var result = parseInt(num1) + parseInt(num2) + parseInt(num3);
+
+        console.log(result);
+        console.log(num1);
+        console.log(num2);
+        console.log(num3);
+
+        if (!isNaN(result)) {
+            $('.shares-number-q').text(result);
+        }
+    }
+
 });
+
 
 
 
