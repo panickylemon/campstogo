@@ -63,12 +63,12 @@
 		height: 270px;
 		background-size: auto 100%;
 	}
-
 	.wrapper-page-item-news h1 {
 		font-size: 26px;
 	}
 
 }
+
 
 @media (max-width: 970px) {
 	.date-link-wrapper {
@@ -90,28 +90,22 @@
 	.for-camps-title {
 		display: none;
 	}
-
 	.wrapper-partnership-header h1, .wrapper-news-header h1 {
 		font-size: 49px;
 	}
-
-	.about-box-wrapper h2, .statistics-box-wrapper h2, .team-wrapper h2 {
+	.about-box-wrapper h2, .statistics-box-wrapper h2, .team-wrapper h2{
 		font-size: 34px;
 	}
-
 	.about-box-wrapper, .statistics-box-wrapper, .team-wrapper {
 		padding: 25px 0 50px;
 	}
-
 	.team-box {
 		padding-top: 30px;
 	}
-
 	.name-team {
 		font-size: 20px;
 	}
-
-	.team-wrapper .button-watch {
+	.team-wrapper .button-watch{
 		margin: 25px auto 10px;
 	}
 }
@@ -132,36 +126,31 @@
 		margin-top: 83px;
 		font-size: 38px;
 	}
-
-	.camp-types-image {
+	.camp-types-image{
 		width: 50%;
 	}
-
-	.wrapper-button-join-camp .button-watch {
+	.wrapper-button-join-camp .button-watch{
 		margin: 70px auto;
 	}
 
-	.wrapper-item-news {
+	.wrapper-item-news{
 		width: 50%;
 	}
-
-	.wrapper-item-news:nth-child(3n+2) .box-news {
+	.wrapper-item-news:nth-child(3n+2) .box-news{
 		margin: 0 0 20px;
 	}
 
-	.wrapper-item-news:nth-child(3n) .box-news {
+	.wrapper-item-news:nth-child(3n) .box-news{
 		float: left;
 	}
-
-	.wrapper-item-news:nth-child(2n) .box-news {
+	.wrapper-item-news:nth-child(2n) .box-news{
 		float: right;
 	}
-
-	.box-news {
+	.box-news{
 		width: 98%;
 	}
 
-	.item-news-page .wrapper-item-news:nth-child(3n) {
+	.item-news-page .wrapper-item-news:nth-child(3n){
 		display: none;
 	}
 
@@ -180,22 +169,23 @@
 }
 
 @media (max-width: 910px) {
-	.box-left-image-about, .box-left-text-about {
+	.box-left-image-about, .box-left-text-about{
 		width: 45%;
 	}
 
-	.box-right-image-about, .box-right-text-about {
+	.box-right-image-about, .box-right-text-about{
 		float: right;
 	}
 }
 
+
 @media (max-width: 860px) {
-	.wrapper-about-header h1 {
+	.wrapper-about-header h1{
 		margin: 50px auto 40px;
 		font-size: 48px;
 	}
 
-	.box-text-header-about p {
+	.box-text-header-about p{
 		margin: 35px auto 30px;
 		font-size: 20px;
 	}
@@ -255,20 +245,16 @@
 	.theme-camp-title {
 		display: none;
 	}
-
 	.theme-camp-wrapper p {
 		padding-right: 10px;
 	}
-
 	.item-result-search-title {
 		max-width: 100%;
 	}
-
 	.item-result-search-rating {
 		float: left;
 		margin-bottom: 10px;
 	}
-
 	.card-product-camp-link {
 		width: 100%;
 		float: none;
@@ -278,8 +264,7 @@
 	.camp-types-image img {
 		padding-left: 20px;
 	}
-
-	.camp-types-text {
+	.camp-types-text{
 		margin-top: 70px;
 	}
 
@@ -299,7 +284,7 @@
 }
 
 @media (max-width: 730px) {
-	.wrapper-team-item {
+	.wrapper-team-item{
 		width: 50%;
 	}
 }
@@ -313,11 +298,11 @@
 		font-size: 20px;
 	}
 
-	h2 {
+	.index-page h2 {
 		font-size: 36px;
 	}
 
-	.pagination > li > a, .pagination > li > span {
+	.pagination>li>a, .pagination>li>span {
 		width: 30px;
 		height: 30px;
 		padding: 4px 0;
@@ -325,8 +310,8 @@
 		margin: 0 5px;
 	}
 
-	.pagination > li:first-child > a, .pagination > li:first-child > span,
-	.pagination > li:last-child > a, .pagination > li:last-child > span {
+	.pagination>li:first-child>a, .pagination>li:first-child>span,
+	.pagination>li:last-child>a, .pagination>li:last-child>span {
 		line-height: 27px;
 	}
 
@@ -335,7 +320,7 @@
 		height: 460px;
 	}
 
-	.about-box-icon {
+	.about-box-icon{
 		float: left;
 		width: 33.33%;
 	}
@@ -343,11 +328,11 @@
 }
 
 @media (max-width: 670px) {
-	.box-left-image-about, .box-text-header-about p {
+	.box-left-image-about, .box-text-header-about p{
 		display: none;
 	}
 
-	.box-image-about, .box-text-header-about {
+	.box-image-about, .box-text-header-about{
 		width: 100%;
 		text-align: center;
 	}
@@ -368,7 +353,7 @@
 }
 
 @media (max-width: 655px) {
-	.camp-types-text {
+	.camp-types-text{
 		margin-top: 60px;
 	}
 }
@@ -380,12 +365,12 @@
 		margin: auto;
 	}
 
-	.content-news .video-container {
+	.content-news .video-container{
 		max-width: 100%;
 		margin: 10px 0 0;
 	}
 
-	.picture-container {
+	.picture-container{
 		margin-top: 20px;
 		float: none;
 		width: 100%;
@@ -394,20 +379,19 @@
 	.wrapper-pictute-card-product {
 		text-align: center;
 	}
-
 	.pictute-item-card-product {
 		width: 33.33%;
 		width: calc(100% / 3);
-		margin: 0;
+		margin: 0 0 5px;
 		display: block;
 		float: left;
 	}
 
-	.pictute-item-card-product img {
+	.pictute-item-card-product img{
 		width: 97%;
 	}
 
-	.camp-types-text {
+	.camp-types-text{
 		margin-top: 50px;
 	}
 }
@@ -436,24 +420,24 @@
 		margin: 0 auto 20px;
 	}
 
-	.camp-types-wrapper {
+	.camp-types-wrapper{
 		text-align: center;
 		padding: 40px 0;
 	}
 
-	.camp-types-image {
+	.camp-types-image{
 		width: 100%;
 		float: none;
 	}
 
-	.camp-types-image img {
+	.camp-types-image img{
 		width: 100%;
 		float: none;
 		padding: 0;
 		max-width: 240px;
 	}
 
-	.camp-types-text {
+	.camp-types-text{
 		width: 100%;
 		padding: 15px 0 0;
 		margin: 0;
@@ -461,25 +445,23 @@
 		max-width: 100%;
 	}
 
-	.wrapper-item-news {
+	.wrapper-item-news{
 		width: 100%;
 		height: auto !important;
 	}
 
-	.wrapper-item-news:nth-child(3n) .box-news {
+	.wrapper-item-news:nth-child(3n) .box-news{
 		float: left;
 	}
-
-	.wrapper-item-news:nth-child(2n) .box-news {
+	.wrapper-item-news:nth-child(2n) .box-news{
 		float: left;
 	}
-
-	.box-news {
+	.box-news{
 		width: 100%;
 		margin-bottom: 30px;
 	}
 
-	.wrapper-item-news:nth-child(3n+2) .box-news {
+	.wrapper-item-news:nth-child(3n+2) .box-news{
 		margin: 0 auto 30px;
 	}
 
@@ -553,20 +535,19 @@
 		margin-top: 32px;
 	}
 
-	.item-result-image {
+	.item-result-image{
 		width: 100%;
 		float: none;
 	}
 
-	.item-result-image img {
+	.item-result-image img{
 		width: 100%;
 	}
 
 	.content-item-result-description {
 		margin: 20px 0 10px;
 	}
-
-	.wrapper-button-join-camp .button-watch {
+	.wrapper-button-join-camp .button-watch{
 		margin: 50px auto;
 	}
 
@@ -575,6 +556,8 @@
 		height: 80px;
 	}
 }
+
+
 
 @media (max-width: 510px) {
 	.filter-box-header {
@@ -608,12 +591,17 @@
 		position: relative;
 		width: 100%;
 		height: 240px;
-		background: url("../image/mobile-backgroung.png") no-repeat center;
+		background: url("../image/main1toned-mobile.jpg") no-repeat center;
 	}
 
 	.filter-box-header form {
 		margin: 0 auto;
-		padding-top: 10px;
+		padding-top: 25px;
+	}
+
+	.index-page .filter-box-header form {
+		margin: 0 auto;
+		padding-top: 5px;
 	}
 
 	.banner-text {
@@ -625,11 +613,11 @@
 		font-size: 36px;
 	}
 
-	.about-box-wrapper h2, .statistics-box-wrapper h2, .team-wrapper h2 {
+	.about-box-wrapper h2, .statistics-box-wrapper h2, .team-wrapper h2{
 		font-size: 28px;
 	}
 
-	.about-item-icon-text {
+	.about-item-icon-text{
 		font-size: 14px;
 	}
 
@@ -680,21 +668,17 @@
 	.item-result-search-title h2 {
 		font-size: 20px;
 	}
-
 	.item-result-search-place {
 		font-size: 18px;
 	}
-
-	.link-view-map a {
+	.link-view-map a{
 		font-size: 18px;
 	}
-
-	.name-country-camps-statistics {
+	.name-country-camps-statistics{
 		font-size: 22px;
 		padding-left: 15px;
 	}
-
-	.number-camps-statistics {
+	.number-camps-statistics{
 		font-size: 22px;
 	}
 
@@ -740,23 +724,30 @@
 		font-weight: 300;
 	}
 
-	.wrapper-team-item {
+	.wrapper-team-item{
 		width: 100%;
 		height: auto !important;
 	}
-
 	.team-item {
 		padding-bottom: 15px;
 	}
-
 	.team-box {
 		padding-top: 15px;
 	}
 
-	.subscribe-form {
+	.subscribe-form, .contact-form {
 		margin: 40px auto;
 	}
+	.template-form input, .template-form textarea {
+		font-size: 14px;
+	}
+
+	.template-form{
+		margin: 30px auto;
+	}
+
 }
+
 
 @media (max-width: 420px) {
 	.latest-news-item-box {
@@ -766,36 +757,35 @@
 	.camps-assignment-wrapper .col-xxs {
 		width: 100%;
 	}
-
-	.wrapper-quote {
+	.wrapper-quote{
 		font-size: 14px;
 	}
 }
 
-@media (max-width: 380px) {
+@media (max-width: 395px) {
 	.number-camps-statistics {
 		width: 100% !important;
 		background: none;
 		color: #ffffff;
 	}
 
-	.wrapper-number-camps-statistics {
+	.wrapper-number-camps-statistics{
 		width: 90px;
 	}
-
 	.item-camps-statistics {
-		width: 80%;
+		width: 90%;
 	}
-
 	.wrapper-camps-statistics {
 		margin-top: 35px;
 	}
+}
 
-	.box-news {
+@media (max-width: 380px) {
+	.box-news{
 		margin-bottom: 20px;
 	}
 
-	.wrapper-item-news:nth-child(3n+2) .box-news {
+	.wrapper-item-news:nth-child(3n+2) .box-news{
 		margin: 0 auto 20px;
 	}
 
@@ -812,59 +802,48 @@
 		height: 35px;
 		margin-top: 15px;
 	}
-
 	.button-read-more a {
 		line-height: 35px;
 	}
-
 	.read-more-wrapper {
 		margin-top: 0;
 	}
-
 	.item-result-search {
 		padding-bottom: 20px;
 	}
-
 	.breadcrumb {
 		margin: 10px 0 10px;
 	}
-
-	.about-box-icon {
+	.about-box-icon{
 		width: 50%;
 	}
-
-	.name-country-camps-statistics {
+	.name-country-camps-statistics{
 		font-size: 20px;
 		padding-left: 10px;
 	}
-
-	.number-camps-statistics {
+	.number-camps-statistics{
 		font-size: 20px;
 	}
-
-	.wrapper-button-join-camp .button-watch {
+	.wrapper-button-join-camp .button-watch{
 		margin: 40px auto;
 	}
-
-	.mobile-hidden {
+	.mobile-hidden{
 		display: none;
 	}
 
-	.wrapper-about-header h1 {
+	.wrapper-about-header h1{
 		font-size: 34px;
 	}
 }
 
 @media (max-width: 315px) {
-	.pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus,
-	.pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus {
+	.pagination>.disabled>span, .pagination>.disabled>span:hover, .pagination>.disabled>span:focus,
+	.pagination>.disabled>a, .pagination>.disabled>a:hover, .pagination>.disabled>a:focus {
 		border: none;
 	}
-
-	.pagination > li > a, .pagination > li > span {
+	.pagination>li>a, .pagination>li>span {
 		margin: 0;
 	}
-
 	.item-camps-statistics {
 		width: 100%;
 	}
@@ -908,6 +887,7 @@
 	}
 }
 
+
 @media (max-width: 275px) {
 	.container-footer {
 		height: 220px;
@@ -921,12 +901,11 @@
 		top: 125px;
 		left: 0;
 	}
-
-	.menu-footer li a {
+	.menu-footer li a{
 		padding: 8px;
 	}
 
-	.menu-footer li:last-child {
+	.menu-footer li:last-child{
 		width: 100%;
 		margin-top: 7px;
 	}
@@ -949,8 +928,7 @@
 	.quantity-rating-wrapper {
 		padding-left: 10px;
 	}
-
-	.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span {
+	.pagination>li:first-child>a, .pagination>li:first-child>span, .pagination>li:last-child>a, .pagination>li:last-child>span {
 		width: 28px;
 	}
 

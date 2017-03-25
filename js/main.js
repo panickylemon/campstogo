@@ -1,3 +1,4 @@
+
 jQuery(document).ready(function ($) {
 
     $('input, textarea').placeholder();
@@ -25,27 +26,27 @@ jQuery(document).ready(function ($) {
     });
 
 
-    $('[placeholder]').focus(function() {
-        var input = $(this);
-        if (input.val() == input.attr('placeholder')) {
-            if (this.originalType) {
-                this.type = this.originalType;
-                delete this.originalType;
-            }
-            input.val('');
-            input.removeClass('placeholder');
-        }
-    }).blur(function() {
-        var input = $(this);
-        if (input.val() == '') {
-            if (this.type == 'password') {
-                this.originalType = this.type;
-                this.type = 'text';
-            }
-            input.addClass('placeholder');
-            input.val(input.attr('placeholder'));
-        }
-    }).blur();
+    // $('[placeholder]').focus(function() {
+    //     var input = $(this);
+    //     if (input.val() == input.attr('placeholder')) {
+    //         if (this.originalType) {
+    //             this.type = this.originalType;
+    //             delete this.originalType;
+    //         }
+    //         input.val('');
+    //         input.removeClass('placeholder');
+    //     }
+    // }).blur(function() {
+    //     var input = $(this);
+    //     if (input.val() == '') {
+    //         if (this.type == 'password') {
+    //             this.originalType = this.type;
+    //             this.type = 'text';
+    //         }
+    //         input.addClass('placeholder');
+    //         input.val(input.attr('placeholder'));
+    //     }
+    // }).blur();
 
     function resizeResultItem(selecter) {
         var max_height = 0;
@@ -54,7 +55,7 @@ jQuery(document).ready(function ($) {
             if (item_height > max_height) {
                 max_height = item_height;
 
-                }
+            }
         });
         $(selecter).each(function () {
             $(this).height(max_height);
@@ -71,13 +72,52 @@ jQuery(document).ready(function ($) {
 
 
     $(".fancybox").fancybox({
-		openEffect	: 'none',
-		closeEffect	: 'none'
-	});
+        openEffect	: 'none',
+        closeEffect	: 'none'
+    });
+
+    $(".link-map").fancybox({
+        maxWidth	: 800,
+        maxHeight	: 600,
+        fitToView	: false,
+        width		: '100%',
+        height		: '70%',
+        autoSize	: false,
+        closeClick	: false,
+        openEffect	: 'none',
+        closeEffect	: 'none'
+    });
 
     $(".button-popup").fancybox({
         maxWidth	: 480,
-        maxHeight : 290,
+        maxHeight	: 290,
+        autoSize	: false,
+        closeClick	: false,
+        openEffect	: 'none',
+        closeEffect	: 'none'
+    });
+
+    $(".button-popup-add").fancybox({
+        maxWidth	: 640,
+        maxHeight	: 560,
+        autoSize	: false,
+        closeClick	: false,
+        openEffect	: 'none',
+        closeEffect	: 'none'
+    });
+
+    $(".button-popup-edit").fancybox({
+        maxWidth	: 640,
+        maxHeight	: 560,
+        autoSize	: false,
+        closeClick	: false,
+        openEffect	: 'none',
+        closeEffect	: 'none'
+    });
+
+    $(".button-popup-contact").fancybox({
+        maxWidth	: 640,
+        maxHeight	: 430,
         autoSize	: false,
         closeClick	: false,
         openEffect	: 'none',
@@ -85,51 +125,66 @@ jQuery(document).ready(function ($) {
 
     });
 
-    $(".button-popup").fancybox({
-        maxWidth	: 480,
-        maxHeight : 500,
-        autoSize	: false,
-        closeClick	: false,
-        openEffect	: 'none',
-        closeEffect	: 'none'
-
+    $( "#AddCamp-form" ).submit(function( event ) {
+        $.fancybox( $( "#thanks-form" ), {
+            maxWidth	: 480,
+            maxHeight	: 290,
+            autoSize	: false,
+            closeClick	: false,
+            openEffect	: 'none',
+            closeEffect	: 'none'
+        })
+        event.preventDefault();
+    });
+    $(".button-close-form").click(function() {
+        $.fancybox.close(true);
     });
 
 
-    $(".owl-carousel").owlCarousel({
-        loop:true,
-        nav: true,
-        navText : ["<span class='arrow'><</span> Previous","Next <span class='arrow'>></span>"],
-        dots: false,
-        mouseDrag: false,
-        items:3
-    });
-
-
-
-    sum();
-    $("#num1, #num2, #num3").on("keydown keyup", function() {
-        sum();
-    });
-
-    function sum() {
-        var num1 = $('.social-likes__counter_facebook').text();
-        var num2 = $('.social-likes__counter_twitter').text();
-        var num3 = $('.social-likes__counter_vkontakte').text();
-        var result = parseInt(num1) + parseInt(num2) + parseInt(num3);
-
-        console.log(result);
-        console.log(num1);
-        console.log(num2);
-        console.log(num3);
-
-        if (!isNaN(result)) {
-            $('.shares-number-q').text(result);
-        }
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+        $('.selectpicker').selectpicker('mobile');
     }
+// $(".owl-carousel").owlCarousel({
+//         loop:true,
+//         nav: true,
+//         navText : ["<span class='arrow'><</span> Previous","Next <span class='arrow'>></span>"],
+//         dots: false,
+//         mouseDrag: false,
+//         items:3,
+//        // navElement:'nav'
+// });
 
+
+    $('.social-likes').on('ready.social-likes', function(event, number) {
+        $('.shares-number').text(number);
+    });
 });
 
+
+var socialLikesButtons = {
+    linkedin: {
+        counterUrl: 'http://www.linkedin.com/countserv/count/share?url={url}',
+        counter: function(jsonUrl, deferred) {
+            var options = socialLikesButtons.linkedin;
+            if (!options._) {
+                options._ = {};
+                if (!window.IN) window.IN = {Tags: {}};
+                window.IN.Tags.Share = {
+                    handleCount: function(params) {
+                        var jsonUrl = options.counterUrl.replace(/{url}/g, encodeURIComponent(params.url));
+                        options._[jsonUrl].resolve(params.count);
+                    }
+                };
+            }
+            options._[jsonUrl] = deferred;
+            $.getScript(jsonUrl)
+                .fail(deferred.reject);
+        },
+        popupUrl: 'http://www.linkedin.com/shareArticle?mini=false&url={url}&title={title}',
+        popupWidth: 650,
+        popupHeight: 500
+    }
+};
 
 
 
