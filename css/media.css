@@ -798,6 +798,11 @@
 	.wrapper-item-news:nth-child(3n+2) .box-news {
 		margin: 0 auto 20px;
 	}
+
+	.button-pink, .button-green{
+		display: block;
+		margin: 15px 0;
+	}
 }
 
 @media (max-width: 340px) {
