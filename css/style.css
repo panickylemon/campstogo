@@ -1688,6 +1688,7 @@ input.question-camp:-ms-input-placeholder {
 	float: right;
 	height: 36px;
 	margin: 0;
+	min-width: 20px;
 	line-height: 36px;
 	background: #ffffff;
 	font-size: 28px;
