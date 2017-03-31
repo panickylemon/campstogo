@@ -394,6 +394,11 @@
 	.camp-types-text{
 		margin-top: 50px;
 	}
+
+	.wrapper-text-card-product .theme-camp-wrapper{
+		width: 100%;
+		margin-top: 0;
+	}
 }
 
 @media (max-width: 600px) {

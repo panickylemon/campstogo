@@ -1320,6 +1320,7 @@ a:hover, a:focus {
 .video-container {
 	float: left;
 	width: 50%;
+	margin-bottom: 10px;
 }
 
 .video-wrapper {
@@ -1440,6 +1441,11 @@ img.thumbnail {
 
 .value-characteristics-camp {
 	color: #5cb000;
+}
+
+.wrapper-text-card-product .theme-camp-wrapper{
+	width: 50%;
+	margin-top: -58px;
 }
 
 .wrapper-text-card-product h2 {
